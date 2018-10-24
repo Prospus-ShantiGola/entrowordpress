@@ -212,3 +212,12 @@ if ( 'modern' == Avada()->settings->get( 'mobile_menu_design' ) ) {
 		?>
 		<div id="main" class="clearfix <?php echo $main_class; ?>" style="<?php echo $main_css; ?>">
 			<div class="fusion-row" style="<?php echo $row_css; ?>">
+<script type="text/javascript">
+// jQuery(document).ready( function(){
+  
+//     jQuery('#menu-item-7032').on('click',function(){
+//     jQuery('#myModal').modal('show');
+
+// });
+// });
+</script>

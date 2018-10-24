@@ -93,8 +93,8 @@
 
 <!-- REGISTER FOR THE KIDPRENEUR CHALLENGE Modal Popup START HERE -->
 
-<!-- <div id="kidpreneurChallenge" class="modal fade red-theme " role="dialog" data-backdrop="static" style="display: none;"> -->
-    <div id="kidpreneurChallenge" class="modal fade red-theme in" role="dialog" data-backdrop="static" style="display: block;">
+<div id="kidpreneurChallenge" class="modal fade red-theme " role="dialog" data-backdrop="static" style="display: none;">
+<!--     <div id="kidpreneurChallenge" class="modal fade red-theme in" role="dialog" data-backdrop="static" style="display: block;"> -->
     <div class="modal-dialog popup_design ">
         <!-- Modal content-->
         <div class="modal-content">
@@ -602,17 +602,118 @@ Provider</option>
                     Once your payment is confirmed your dashboard will be automatically set up. You will receive an email from Entropolis HQ with your purchase details and login credentials to access your personal dashboard and our online community.
                 </p>
                 <button type="button" class="btn popup_button line_button" data-toggle="modal" data-target="#payByInvoicePopup" data-dismiss="modal" id="invoice_payment">Pay By Invoice</button>
-                <button type="button" class="btn popup_button line_button hide" id="purchaseOnline">Purchase Online</button>
+               <!--  <button type="button" class="btn popup_button line_button hide" id="purchaseOnline">Purchase Online</button> -->
             </div>
         </div>
 
     </div>
 </div>
+
+
 <!-- Payment-Popup END HERE -->
 
-<script type="text/javascript">
+<!-- Pay-By-Invoice Popup Starts Here -->
 
+
+<div id="payByInvoicePopup" class="modal fade pay_by_invoice red-theme" role="dialog" data-backdrop="static">
+    <div class="modal-dialog popup_design paymodal">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+            <div class="modal-header paymodal_header" style =  "padding:15px;">
+                <button type="button" class="close" data-dismiss="modal"><i class="icons close-icon"></i></button>
+                <div class="flex-center">
+                    <div class="paypopup_logo">
+                        <?php echo $this->Html->image('logos/ck-challenge-logosmall.png', array('alt' => '')); ?>
+
+
+                    </div>
+                    <div class="popup_title">
+                        <h4 class="modal-title">Order Confirmation</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="invoiceTxt">
+
+                            <span class="block-wrap bold">Dear <span class="first-name-invoice">First Name</span> <span class="last-name-invoice">Last Name</span></span></span>
+                        </div>
+                        <div class="invoiceTxt">
+                            <!-- Thank you for purchasing your <strong class="bold">Kidpreneur Challenge 2017 School Packages</strong>. We look forward to welcoming your wonderful Kidpreneurs to this year's challenge and collaborating with you to nurture the entrepreneurs of the future. -->
+                            Thank you for purchasing your Kidpreneur Challenge Package. We look forward to welcoming your wonderful Kidpreneurs to this year's challenge and collaborating with you to futureproof the next generation through entrepreneurship education.
+
+                        </div>
+                        <div class="invoiceTxt">
+                            We will send you an invoice for your order within 48 hours.
+                        </div>
+                        <div class="invoiceTxt">
+                            In the meantime, please check the order confirmation in the email we just sent you.
+                        </div>
+                        <div class="invoiceTxt">
+                            We'll be in touch soon!
+                        </div>
+
+                        <div class="invoiceFooter">
+                            <div class="block-invoice-wrap">Regards,
+                                <span class="bold title_top_margin">Kidpreneur Challenge | HQ</span>
+                            </div>
+                            <div class="block-invoice-wrap">
+                                <span>Club Kidpreneur Ltd.</span>
+                                <span>ABN 13 144 623 709</span>
+                                <span class ="title_top_margin">ACNC Registered charity</span>
+                            </div>
+                             <div class="block-invoice-wrap margin_top_format">
+                                <span class="block-wrap">
+                                    <span class="bold">E:</span> <span class="email-invoice-txt">info@kidpreneurchallenge.com</span> | <span class="bold">P:</span> <span class="phone-invoice-txt">1300 464 388</span>
+                                </span>
+                            <!--     <span class="block-wrap title_top_margin">
+                                    <span class="bold">P:</span> <span class="phone-invoice-txt">1300 464 388</span>
+                                </span> -->
+
+                                </div>
+                            <div class="block-invoice-wrap margin_top_10">
+                                <span>Level 4, 16 Spring Street, Sydney NSW 2000 Australia</span>
+                               <!--  <span></span> -->
+                                <span>Powered by Entropolis</span>
+                            </div>
+
+
+                            <div class="block-invoice-wrap margin_top_10">
+                                <span>Level 4, 16 Spring Street, Sydney NSW 2000 Australia</span>
+                               <!--  <span></span> -->
+                                <span>Powered by Entropolis</span>
+                            </div>
+
+
+
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <input type="hidden" name="hidden_teacher" id="hidden_teacher_id" value="">  -->
+            <div class="modal-footer">
+                <div class="col-md-12 align_center">
+                    <button type="button" class="btn popup_button line_button" data-dismiss="modal">Ok</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Pay-By-Invoice Popup Starts Here -->
+
+<script type="text/javascript">
+ jQuery(document).ready( function(){
+    alert('enr')
 cakephp_ajax_url = "<?php echo get_site_url();?>"+"/theentropolis/";
+
+
 
     jQuery('.numberStartFrom1').keyup(function () {
         //alert('dsa')
@@ -663,6 +764,7 @@ jQuery("#kids_organization_educator").keyup(function() {
 
 // alert(cakephp_ajax_url)
  jQuery(".user-authentication").on('click', function (e) {
+    alert('dsad')
     e.preventDefault();
             this_obj = jQuery(this);
             var datas = this_obj.parent().parent('#user-authen-detail').serialize();
@@ -1064,7 +1166,7 @@ jQuery( "#challengesubmit" ).click(function() {
    
 
   
-
+});
        function validateEmail(email) {
         var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
         if( !emailReg.test( email ) ) {
