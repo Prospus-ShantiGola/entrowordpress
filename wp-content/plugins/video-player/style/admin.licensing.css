@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=greek,latin-ext');
+
+.video-player {
+	font-family: 'Roboto', sans-serif;
+}
+
+.video-player .video-block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	padding-top: 50px;
+}
+
+
+.video-player .video-block .licens {
+	width: 324px;
+	height: 115px;
+	background-color: #c30000;
+	border-radius: 3px;
+	background-image: url(../images/license.png);
+	background-position: 8px 0px;
+	position: relative;
+	margin: 0 7px;
+	margin-bottom: 14px;
+}
+
+.video-player .video-block .licens a {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+.video-player .video-block .licens:hover {
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.video-player .video-block .licens .icon {
+	background-image: url(../images/license.png);
+}
+
+.video-player .video-block .licens .text {
+	color: #fff;
+	font-size: 19px;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+
+.video-player .video-block .licens .player-advanced {
+	width: 58px;
+	height: 50px;
+	background-position: -30px -342px;
+	margin-top: 20px;
+}
+
+.video-player .video-block .licens .video-resizer {
+	width: 50px;
+	height: 46px;
+	background-position: -30px -482px;
+	margin-top: 19px;
+}
+
+.video-player .video-block .licens .advanced-color {
+	width: 52px;
+	height: 52px;
+	background-position: -204px -335px;
+	margin-top: 17px;
+}
+
+.video-player .video-block .licens .playlist {
+	width: 41px;
+	height: 41px;
+	background-position: -226px -482px;
+	margin-top: 20px;
+}
+
+.video-player .video-block .licens .youtube {
+	width: 60px;
+	height: 42px;
+	margin-top: 19px;
+	background-position: -356px -335px;
+}
+
+.video-player .video-block .licens .vimeo {
+	width: 49px;
+	height: 43px;
+	background-position: -376px -476px;
+	margin-top: 22px;
+}
+
+.video-player .video-block .licens .advanced {
+	width: 54px;
+	height: 54px;
+	background-position: -40px -601px;
+	margin-top: 13px;
+}

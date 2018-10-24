@@ -1,0 +1,53 @@
+.dashicons.dashicons-admin-network.avada-icon-key {
+	line-height: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+#avada_product_registration {
+	display: -webkit-flex;  
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;	
+}
+
+.avada-registration-form input {
+	margin: 0 1em;
+	padding: 10px 15px;
+	width: 100%;
+	height: 40px;
+}
+
+.avada-registration-form input#submit {
+	margin: 0;
+	width: auto;
+}
+
+#avada_product_registration p.submit {
+	margin: 0;
+	padding: 0;
+}
+
+#avada_product_registration .dashicons {
+	margin: 0;
+	color: #333333;
+}
+
+#avada_product_registration .dashicons-yes {
+	color: #43A047;
+}
+
+#avada_product_registration .dashicons-no {
+	color:#c00;
+}
+
+.avada-important-notice p.error-invalid-token {
+	margin: 1em 0 0 0;
+	padding:1em;
+	color:#fff;
+	background-color:#c00;
+	text-align:center;
+}

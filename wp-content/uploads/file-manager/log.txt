@@ -1,0 +1,2864 @@
+[Tue, 01 Nov 2016 17:14:10 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1476276131,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 0,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'name' => 'html',
+    'csscls' => 'elfinder-navbar-root-local',
+    'volumeid' => 'l1_',
+    'locked' => 1,
+    'dirs' => 1,
+    'uiCmdMap' => 
+    array (
+    ),
+    'disabled' => 
+    array (
+      0 => 'chmod',
+      1 => 'extract',
+    ),
+    'root' => 'l1_Lw',
+  ),
+  'options' => 
+  array (
+    'path' => 'html',
+    'url' => 'http://clubkidpreneur.com/',
+    'tmbUrl' => '',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+      1 => 'extract',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1476276131,
+      'mime' => 'directory',
+      'read' => 1,
+      'write' => 0,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'name' => 'html',
+      'csscls' => 'elfinder-navbar-root-local',
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+      'uiCmdMap' => 
+      array (
+      ),
+      'disabled' => 
+      array (
+        0 => 'chmod',
+        1 => 'extract',
+      ),
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '2382',
+      'hash' => 'l1_d3AtbGlua3Mtb3BtbC5waHA',
+      'name' => 'wp-links-opml.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '29890',
+      'hash' => 'l1_d3Atc2lnbnVwLnBocA',
+      'name' => 'wp-signup.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1476246602,
+      'read' => 1,
+      'write' => 0,
+      'size' => '2988',
+      'hash' => 'l1_d3AtY29uZmlnLnBocA',
+      'name' => 'wp-config.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '3353',
+      'hash' => 'l1_d3AtbG9hZC5waHA',
+      'name' => 'wp-load.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '1477',
+      'hash' => 'l1_d3AtY29tbWVudHMtcG9zdC5waHA',
+      'name' => 'wp-comments-post.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476274854,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2100',
+      'hash' => 'l1_Lmh0YWNjZXNz',
+      'name' => '.htaccess',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1476275785,
+      'read' => 1,
+      'write' => 0,
+      'size' => 0,
+      'hash' => 'l1_d3Atc25hcHNob3Rz',
+      'name' => 'wp-snapshots',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-pascal',
+      'ts' => 1470291957,
+      'read' => 1,
+      'write' => 0,
+      'size' => '19935',
+      'hash' => 'l1_bGljZW5zZS50eHQ',
+      'name' => 'license.txt',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1475215193,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtYWRtaW4',
+      'name' => 'wp-admin',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '34057',
+      'hash' => 'l1_d3AtbG9naW4ucGhw',
+      'name' => 'wp-login.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '7786',
+      'hash' => 'l1_d3AtbWFpbC5waHA',
+      'name' => 'wp-mail.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576887,
+      'read' => 1,
+      'write' => 0,
+      'size' => '364',
+      'hash' => 'l1_d3AtYmxvZy1oZWFkZXIucGhw',
+      'name' => 'wp-blog-header.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    13 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '13920',
+      'hash' => 'l1_d3Atc2V0dGluZ3MucGhw',
+      'name' => 'wp-settings.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    14 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1463641534,
+      'read' => 1,
+      'write' => 0,
+      'size' => '25848253',
+      'hash' => 'l1_Y2x1YmtpZDIxOG1heTE2LnNxbA',
+      'name' => 'clubkid218may16.sql',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    15 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1475217275,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudA',
+      'name' => 'wp-content',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+    ),
+    16 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '3064',
+      'hash' => 'l1_eG1scnBjLnBocA',
+      'name' => 'xmlrpc.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    17 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576897,
+      'read' => 1,
+      'write' => 0,
+      'size' => '4035',
+      'hash' => 'l1_d3AtdHJhY2tiYWNrLnBocA',
+      'name' => 'wp-trackback.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    18 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476275242,
+      'read' => 1,
+      'write' => 0,
+      'size' => '24',
+      'hash' => 'l1_cm9ib3RzLnR4dA',
+      'name' => 'robots.txt',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    19 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576887,
+      'read' => 1,
+      'write' => 0,
+      'size' => '418',
+      'hash' => 'l1_aW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    20 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476276132,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlZTI4YzJkOWM5ZDA4YWJjMC5odG1s',
+      'name' => 'googlee28c2d9c9d08abc0.html',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    21 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476275501,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlYzJkMTFkODc2OWVkOTBiMi5odG1s',
+      'name' => 'googlec2d11d8769ed90b2.html',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    22 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 0,
+      'size' => '5456',
+      'hash' => 'l1_d3AtYWN0aXZhdGUucGhw',
+      'name' => 'wp-activate.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    23 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/html',
+      'ts' => 1473264775,
+      'read' => 1,
+      'write' => 1,
+      'size' => '7344',
+      'hash' => 'l1_cmVhZG1lLmh0bWw',
+      'name' => 'readme.html',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    24 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1472453213,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtaW5jbHVkZXM',
+      'name' => 'wp-includes',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+    ),
+    25 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463655821,
+      'read' => 1,
+      'write' => 0,
+      'size' => '19',
+      'hash' => 'l1_MS5waHA',
+      'name' => '1.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    26 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1470291957,
+      'read' => 1,
+      'write' => 0,
+      'size' => '2853',
+      'hash' => 'l1_d3AtY29uZmlnLXNhbXBsZS5waHA',
+      'name' => 'wp-config-sample.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+    27 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576896,
+      'read' => 1,
+      'write' => 0,
+      'size' => '3286',
+      'hash' => 'l1_d3AtY3Jvbi5waHA',
+      'name' => 'wp-cron.php',
+      'phash' => 'l1_Lw',
+      'locked' => 1,
+    ),
+  ),
+  'api' => '2.0',
+  'uplMaxSize' => '20M',
+  'uplMaxFile' => '20',
+  'netDrivers' => 
+  array (
+  ),
+) 
+[Thu, 08 Jun 2017 07:16:38 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1496662520,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'name' => 'html',
+    'rootRev' => '',
+    'options' => 
+    array (
+      'path' => '',
+      'url' => 'http://clubkidpreneur.com/',
+      'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+      'disabled' => 
+      array (
+        0 => 'chmod',
+      ),
+      'separator' => '/',
+      'copyOverwrite' => 1,
+      'uploadOverwrite' => 1,
+      'uploadMaxSize' => 9223372036854775807,
+      'uploadMaxConn' => 3,
+      'uploadMime' => 
+      array (
+        'firstOrder' => 'allow',
+        'allow' => 
+        array (
+          0 => 'text',
+          1 => 'image',
+          2 => 'video',
+          3 => 'audio',
+          4 => 'application',
+          5 => 'model',
+          6 => 'chemical',
+          7 => 'x-conference',
+          8 => 'message',
+        ),
+        'deny' => 
+        array (
+        ),
+      ),
+      'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+      'jpgQuality' => 100,
+      'archivers' => 
+      array (
+        'create' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'extract' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'createext' => 
+        array (
+          'application/x-tar' => 'tar',
+          'application/x-gzip' => 'tgz',
+          'application/x-bzip2' => 'tbz',
+          'application/x-xz' => 'xz',
+          'application/zip' => 'zip',
+        ),
+      ),
+      'uiCmdMap' => 
+      array (
+      ),
+      'syncChkAsTs' => 1,
+      'syncMinMs' => 10000,
+      'i18nFolderName' => 0,
+      'tmbCrop' => 1,
+      'csscls' => 'elfinder-navbar-root-local',
+    ),
+    'volumeid' => 'l1_',
+    'locked' => 1,
+    'dirs' => 1,
+    'isroot' => 1,
+    'phash' => '',
+    'root' => 'l1_Lw',
+  ),
+  'options' => 
+  array (
+    'path' => 'html',
+    'url' => 'http://clubkidpreneur.com/',
+    'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1496662520,
+      'mime' => 'directory',
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'name' => 'html',
+      'rootRev' => '',
+      'options' => 
+      array (
+        'path' => '',
+        'url' => 'http://clubkidpreneur.com/',
+        'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+        'disabled' => 
+        array (
+          0 => 'chmod',
+        ),
+        'separator' => '/',
+        'copyOverwrite' => 1,
+        'uploadOverwrite' => 1,
+        'uploadMaxSize' => 9223372036854775807,
+        'uploadMaxConn' => 3,
+        'uploadMime' => 
+        array (
+          'firstOrder' => 'allow',
+          'allow' => 
+          array (
+            0 => 'text',
+            1 => 'image',
+            2 => 'video',
+            3 => 'audio',
+            4 => 'application',
+            5 => 'model',
+            6 => 'chemical',
+            7 => 'x-conference',
+            8 => 'message',
+          ),
+          'deny' => 
+          array (
+          ),
+        ),
+        'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+        'jpgQuality' => 100,
+        'archivers' => 
+        array (
+          'create' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'extract' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'createext' => 
+          array (
+            'application/x-tar' => 'tar',
+            'application/x-gzip' => 'tgz',
+            'application/x-bzip2' => 'tbz',
+            'application/x-xz' => 'xz',
+            'application/zip' => 'zip',
+          ),
+        ),
+        'uiCmdMap' => 
+        array (
+        ),
+        'syncChkAsTs' => 1,
+        'syncMinMs' => 10000,
+        'i18nFolderName' => 0,
+        'tmbCrop' => 1,
+        'csscls' => 'elfinder-navbar-root-local',
+      ),
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+      'isroot' => 1,
+      'phash' => '',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2422',
+      'hash' => 'l1_d3AtbGlua3Mtb3BtbC5waHA',
+      'name' => 'wp-links-opml.php',
+      'phash' => 'l1_Lw',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '29896',
+      'hash' => 'l1_d3Atc2lnbnVwLnBocA',
+      'name' => 'wp-signup.php',
+      'phash' => 'l1_Lw',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1476246602,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2988',
+      'hash' => 'l1_d3AtY29uZmlnLnBocA',
+      'name' => 'wp-config.php',
+      'phash' => 'l1_Lw',
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3301',
+      'hash' => 'l1_d3AtbG9hZC5waHA',
+      'name' => 'wp-load.php',
+      'phash' => 'l1_Lw',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1627',
+      'hash' => 'l1_d3AtY29tbWVudHMtcG9zdC5waHA',
+      'name' => 'wp-comments-post.php',
+      'phash' => 'l1_Lw',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476274854,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2100',
+      'hash' => 'l1_Lmh0YWNjZXNz',
+      'name' => '.htaccess',
+      'phash' => 'l1_Lw',
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1476275785,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3Atc25hcHNob3Rz',
+      'name' => 'wp-snapshots',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-pascal',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19935',
+      'hash' => 'l1_bGljZW5zZS50eHQ',
+      'name' => 'license.txt',
+      'phash' => 'l1_Lw',
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1475215193,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtYWRtaW4',
+      'name' => 'wp-admin',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '33939',
+      'hash' => 'l1_d3AtbG9naW4ucGhw',
+      'name' => 'wp-login.php',
+      'phash' => 'l1_Lw',
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '8048',
+      'hash' => 'l1_d3AtbWFpbC5waHA',
+      'name' => 'wp-mail.php',
+      'phash' => 'l1_Lw',
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576887,
+      'read' => 1,
+      'write' => 1,
+      'size' => '364',
+      'hash' => 'l1_d3AtYmxvZy1oZWFkZXIucGhw',
+      'name' => 'wp-blog-header.php',
+      'phash' => 'l1_Lw',
+    ),
+    13 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/html',
+      'ts' => 1494976501,
+      'read' => 1,
+      'write' => 1,
+      'size' => '7433',
+      'hash' => 'l1_cmVhZG1lLmRjYWNlZGIwNDBhOTljZjNiN2E0MTRmZWFlNjVmYWMzLmh0bWw',
+      'name' => 'readme.dcacedb040a99cf3b7a414feae65fac3.html',
+      'phash' => 'l1_Lw',
+    ),
+    14 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1492711785,
+      'read' => 1,
+      'write' => 1,
+      'size' => '16255',
+      'hash' => 'l1_d3Atc2V0dGluZ3MucGhw',
+      'name' => 'wp-settings.php',
+      'phash' => 'l1_Lw',
+    ),
+    15 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1463641534,
+      'read' => 1,
+      'write' => 1,
+      'size' => '25848253',
+      'hash' => 'l1_Y2x1YmtpZDIxOG1heTE2LnNxbA',
+      'name' => 'clubkid218may16.sql',
+      'phash' => 'l1_Lw',
+    ),
+    16 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1480480701,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudA',
+      'name' => 'wp-content',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    17 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3065',
+      'hash' => 'l1_eG1scnBjLnBocA',
+      'name' => 'xmlrpc.php',
+      'phash' => 'l1_Lw',
+    ),
+    18 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1496906198,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_LnRtYg',
+      'name' => '.tmb',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+    ),
+    19 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '4513',
+      'hash' => 'l1_d3AtdHJhY2tiYWNrLnBocA',
+      'name' => 'wp-trackback.php',
+      'phash' => 'l1_Lw',
+    ),
+    20 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476275242,
+      'read' => 1,
+      'write' => 1,
+      'size' => '24',
+      'hash' => 'l1_cm9ib3RzLnR4dA',
+      'name' => 'robots.txt',
+      'phash' => 'l1_Lw',
+    ),
+    21 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576887,
+      'read' => 1,
+      'write' => 1,
+      'size' => '418',
+      'hash' => 'l1_aW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_Lw',
+    ),
+    22 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476276132,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlZTI4YzJkOWM5ZDA4YWJjMC5odG1s',
+      'name' => 'googlee28c2d9c9d08abc0.html',
+      'phash' => 'l1_Lw',
+    ),
+    23 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476275501,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlYzJkMTFkODc2OWVkOTBiMi5odG1s',
+      'name' => 'googlec2d11d8769ed90b2.html',
+      'phash' => 'l1_Lw',
+    ),
+    24 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '5447',
+      'hash' => 'l1_d3AtYWN0aXZhdGUucGhw',
+      'name' => 'wp-activate.php',
+      'phash' => 'l1_Lw',
+    ),
+    25 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtaW5jbHVkZXM',
+      'name' => 'wp-includes',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    26 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463655821,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19',
+      'hash' => 'l1_MS5waHA',
+      'name' => '1.php',
+      'phash' => 'l1_Lw',
+    ),
+    27 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1470291957,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2853',
+      'hash' => 'l1_d3AtY29uZmlnLXNhbXBsZS5waHA',
+      'name' => 'wp-config-sample.php',
+      'phash' => 'l1_Lw',
+    ),
+    28 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576896,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3286',
+      'hash' => 'l1_d3AtY3Jvbi5waHA',
+      'name' => 'wp-cron.php',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'api' => '2.1',
+  'uplMaxSize' => '50M',
+  'uplMaxFile' => '50',
+  'netDrivers' => 
+  array (
+  ),
+  'maxTargets' => 1000,
+) 
+[Thu, 08 Jun 2017 08:10:21 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1496662520,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'name' => 'html',
+    'rootRev' => '',
+    'options' => 
+    array (
+      'path' => '',
+      'url' => 'http://clubkidpreneur.com/',
+      'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+      'disabled' => 
+      array (
+        0 => 'chmod',
+      ),
+      'separator' => '/',
+      'copyOverwrite' => 1,
+      'uploadOverwrite' => 1,
+      'uploadMaxSize' => 9223372036854775807,
+      'uploadMaxConn' => 3,
+      'uploadMime' => 
+      array (
+        'firstOrder' => 'allow',
+        'allow' => 
+        array (
+          0 => 'text',
+          1 => 'image',
+          2 => 'video',
+          3 => 'audio',
+          4 => 'application',
+          5 => 'model',
+          6 => 'chemical',
+          7 => 'x-conference',
+          8 => 'message',
+        ),
+        'deny' => 
+        array (
+        ),
+      ),
+      'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+      'jpgQuality' => 100,
+      'archivers' => 
+      array (
+        'create' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'extract' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'createext' => 
+        array (
+          'application/x-tar' => 'tar',
+          'application/x-gzip' => 'tgz',
+          'application/x-bzip2' => 'tbz',
+          'application/x-xz' => 'xz',
+          'application/zip' => 'zip',
+        ),
+      ),
+      'uiCmdMap' => 
+      array (
+      ),
+      'syncChkAsTs' => 1,
+      'syncMinMs' => 10000,
+      'i18nFolderName' => 0,
+      'tmbCrop' => 1,
+      'csscls' => 'elfinder-navbar-root-local',
+    ),
+    'volumeid' => 'l1_',
+    'locked' => 1,
+    'dirs' => 1,
+    'isroot' => 1,
+    'phash' => '',
+    'root' => 'l1_Lw',
+  ),
+  'options' => 
+  array (
+    'path' => 'html',
+    'url' => 'http://clubkidpreneur.com/',
+    'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1496662520,
+      'mime' => 'directory',
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'name' => 'html',
+      'rootRev' => '',
+      'options' => 
+      array (
+        'path' => '',
+        'url' => 'http://clubkidpreneur.com/',
+        'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+        'disabled' => 
+        array (
+          0 => 'chmod',
+        ),
+        'separator' => '/',
+        'copyOverwrite' => 1,
+        'uploadOverwrite' => 1,
+        'uploadMaxSize' => 9223372036854775807,
+        'uploadMaxConn' => 3,
+        'uploadMime' => 
+        array (
+          'firstOrder' => 'allow',
+          'allow' => 
+          array (
+            0 => 'text',
+            1 => 'image',
+            2 => 'video',
+            3 => 'audio',
+            4 => 'application',
+            5 => 'model',
+            6 => 'chemical',
+            7 => 'x-conference',
+            8 => 'message',
+          ),
+          'deny' => 
+          array (
+          ),
+        ),
+        'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+        'jpgQuality' => 100,
+        'archivers' => 
+        array (
+          'create' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'extract' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'createext' => 
+          array (
+            'application/x-tar' => 'tar',
+            'application/x-gzip' => 'tgz',
+            'application/x-bzip2' => 'tbz',
+            'application/x-xz' => 'xz',
+            'application/zip' => 'zip',
+          ),
+        ),
+        'uiCmdMap' => 
+        array (
+        ),
+        'syncChkAsTs' => 1,
+        'syncMinMs' => 10000,
+        'i18nFolderName' => 0,
+        'tmbCrop' => 1,
+        'csscls' => 'elfinder-navbar-root-local',
+      ),
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+      'isroot' => 1,
+      'phash' => '',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2422',
+      'hash' => 'l1_d3AtbGlua3Mtb3BtbC5waHA',
+      'name' => 'wp-links-opml.php',
+      'phash' => 'l1_Lw',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '29896',
+      'hash' => 'l1_d3Atc2lnbnVwLnBocA',
+      'name' => 'wp-signup.php',
+      'phash' => 'l1_Lw',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1476246602,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2988',
+      'hash' => 'l1_d3AtY29uZmlnLnBocA',
+      'name' => 'wp-config.php',
+      'phash' => 'l1_Lw',
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3301',
+      'hash' => 'l1_d3AtbG9hZC5waHA',
+      'name' => 'wp-load.php',
+      'phash' => 'l1_Lw',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1627',
+      'hash' => 'l1_d3AtY29tbWVudHMtcG9zdC5waHA',
+      'name' => 'wp-comments-post.php',
+      'phash' => 'l1_Lw',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476274854,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2100',
+      'hash' => 'l1_Lmh0YWNjZXNz',
+      'name' => '.htaccess',
+      'phash' => 'l1_Lw',
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1476275785,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3Atc25hcHNob3Rz',
+      'name' => 'wp-snapshots',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-pascal',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19935',
+      'hash' => 'l1_bGljZW5zZS50eHQ',
+      'name' => 'license.txt',
+      'phash' => 'l1_Lw',
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1475215193,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtYWRtaW4',
+      'name' => 'wp-admin',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '33939',
+      'hash' => 'l1_d3AtbG9naW4ucGhw',
+      'name' => 'wp-login.php',
+      'phash' => 'l1_Lw',
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '8048',
+      'hash' => 'l1_d3AtbWFpbC5waHA',
+      'name' => 'wp-mail.php',
+      'phash' => 'l1_Lw',
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576887,
+      'read' => 1,
+      'write' => 1,
+      'size' => '364',
+      'hash' => 'l1_d3AtYmxvZy1oZWFkZXIucGhw',
+      'name' => 'wp-blog-header.php',
+      'phash' => 'l1_Lw',
+    ),
+    13 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/html',
+      'ts' => 1494976501,
+      'read' => 1,
+      'write' => 1,
+      'size' => '7433',
+      'hash' => 'l1_cmVhZG1lLmRjYWNlZGIwNDBhOTljZjNiN2E0MTRmZWFlNjVmYWMzLmh0bWw',
+      'name' => 'readme.dcacedb040a99cf3b7a414feae65fac3.html',
+      'phash' => 'l1_Lw',
+    ),
+    14 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1492711785,
+      'read' => 1,
+      'write' => 1,
+      'size' => '16255',
+      'hash' => 'l1_d3Atc2V0dGluZ3MucGhw',
+      'name' => 'wp-settings.php',
+      'phash' => 'l1_Lw',
+    ),
+    15 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1463641534,
+      'read' => 1,
+      'write' => 1,
+      'size' => '25848253',
+      'hash' => 'l1_Y2x1YmtpZDIxOG1heTE2LnNxbA',
+      'name' => 'clubkid218may16.sql',
+      'phash' => 'l1_Lw',
+    ),
+    16 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1480480701,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudA',
+      'name' => 'wp-content',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    17 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3065',
+      'hash' => 'l1_eG1scnBjLnBocA',
+      'name' => 'xmlrpc.php',
+      'phash' => 'l1_Lw',
+    ),
+    18 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1496906198,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_LnRtYg',
+      'name' => '.tmb',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+    ),
+    19 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '4513',
+      'hash' => 'l1_d3AtdHJhY2tiYWNrLnBocA',
+      'name' => 'wp-trackback.php',
+      'phash' => 'l1_Lw',
+    ),
+    20 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476275242,
+      'read' => 1,
+      'write' => 1,
+      'size' => '24',
+      'hash' => 'l1_cm9ib3RzLnR4dA',
+      'name' => 'robots.txt',
+      'phash' => 'l1_Lw',
+    ),
+    21 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576887,
+      'read' => 1,
+      'write' => 1,
+      'size' => '418',
+      'hash' => 'l1_aW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_Lw',
+    ),
+    22 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476276132,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlZTI4YzJkOWM5ZDA4YWJjMC5odG1s',
+      'name' => 'googlee28c2d9c9d08abc0.html',
+      'phash' => 'l1_Lw',
+    ),
+    23 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1476275501,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlYzJkMTFkODc2OWVkOTBiMi5odG1s',
+      'name' => 'googlec2d11d8769ed90b2.html',
+      'phash' => 'l1_Lw',
+    ),
+    24 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => '5447',
+      'hash' => 'l1_d3AtYWN0aXZhdGUucGhw',
+      'name' => 'wp-activate.php',
+      'phash' => 'l1_Lw',
+    ),
+    25 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1485887943,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtaW5jbHVkZXM',
+      'name' => 'wp-includes',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    26 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463655821,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19',
+      'hash' => 'l1_MS5waHA',
+      'name' => '1.php',
+      'phash' => 'l1_Lw',
+    ),
+    27 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1470291957,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2853',
+      'hash' => 'l1_d3AtY29uZmlnLXNhbXBsZS5waHA',
+      'name' => 'wp-config-sample.php',
+      'phash' => 'l1_Lw',
+    ),
+    28 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1463576896,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3286',
+      'hash' => 'l1_d3AtY3Jvbi5waHA',
+      'name' => 'wp-cron.php',
+      'phash' => 'l1_Lw',
+    ),
+  ),
+  'api' => '2.1',
+  'uplMaxSize' => '50M',
+  'uplMaxFile' => '50',
+  'netDrivers' => 
+  array (
+  ),
+  'maxTargets' => 1000,
+) 
+[Wed, 30 Aug 2017 00:01:18 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1502859723,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_Lw',
+    'name' => 'clubkidpreneur.com',
+    'rootRev' => '',
+    'options' => 
+    array (
+      'path' => '',
+      'url' => 'http://clubkidpreneur.com/',
+      'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+      'disabled' => 
+      array (
+        0 => 'chmod',
+      ),
+      'separator' => '/',
+      'copyOverwrite' => 1,
+      'uploadOverwrite' => 1,
+      'uploadMaxSize' => 9223372036854775807,
+      'uploadMaxConn' => 3,
+      'uploadMime' => 
+      array (
+        'firstOrder' => 'allow',
+        'allow' => 
+        array (
+          0 => 'text',
+          1 => 'image',
+          2 => 'video',
+          3 => 'audio',
+          4 => 'application',
+          5 => 'model',
+          6 => 'chemical',
+          7 => 'x-conference',
+          8 => 'message',
+        ),
+        'deny' => 
+        array (
+        ),
+      ),
+      'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+      'jpgQuality' => 100,
+      'archivers' => 
+      array (
+        'create' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'extract' => 
+        array (
+          0 => 'application/x-tar',
+          1 => 'application/x-gzip',
+          2 => 'application/x-bzip2',
+          3 => 'application/x-xz',
+          4 => 'application/zip',
+        ),
+        'createext' => 
+        array (
+          'application/x-tar' => 'tar',
+          'application/x-gzip' => 'tgz',
+          'application/x-bzip2' => 'tbz',
+          'application/x-xz' => 'xz',
+          'application/zip' => 'zip',
+        ),
+      ),
+      'uiCmdMap' => 
+      array (
+      ),
+      'syncChkAsTs' => 1,
+      'syncMinMs' => 10000,
+      'i18nFolderName' => 0,
+      'tmbCrop' => 1,
+      'csscls' => 'elfinder-navbar-root-local',
+    ),
+    'volumeid' => 'l1_',
+    'locked' => 1,
+    'dirs' => 1,
+    'isroot' => 1,
+    'phash' => '',
+    'root' => 'l1_Lw',
+  ),
+  'options' => 
+  array (
+    'path' => 'clubkidpreneur.com',
+    'url' => 'http://clubkidpreneur.com/',
+    'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1502859723,
+      'mime' => 'directory',
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'name' => 'clubkidpreneur.com',
+      'rootRev' => '',
+      'options' => 
+      array (
+        'path' => '',
+        'url' => 'http://clubkidpreneur.com/',
+        'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+        'disabled' => 
+        array (
+          0 => 'chmod',
+        ),
+        'separator' => '/',
+        'copyOverwrite' => 1,
+        'uploadOverwrite' => 1,
+        'uploadMaxSize' => 9223372036854775807,
+        'uploadMaxConn' => 3,
+        'uploadMime' => 
+        array (
+          'firstOrder' => 'allow',
+          'allow' => 
+          array (
+            0 => 'text',
+            1 => 'image',
+            2 => 'video',
+            3 => 'audio',
+            4 => 'application',
+            5 => 'model',
+            6 => 'chemical',
+            7 => 'x-conference',
+            8 => 'message',
+          ),
+          'deny' => 
+          array (
+          ),
+        ),
+        'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+        'jpgQuality' => 100,
+        'archivers' => 
+        array (
+          'create' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'extract' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'createext' => 
+          array (
+            'application/x-tar' => 'tar',
+            'application/x-gzip' => 'tgz',
+            'application/x-bzip2' => 'tbz',
+            'application/x-xz' => 'xz',
+            'application/zip' => 'zip',
+          ),
+        ),
+        'uiCmdMap' => 
+        array (
+        ),
+        'syncChkAsTs' => 1,
+        'syncMinMs' => 10000,
+        'i18nFolderName' => 0,
+        'tmbCrop' => 1,
+        'csscls' => 'elfinder-navbar-root-local',
+      ),
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+      'isroot' => 1,
+      'phash' => '',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '8048',
+      'hash' => 'l1_d3AtbWFpbC5waHA',
+      'name' => 'wp-mail.php',
+      'phash' => 'l1_Lw',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566187,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3286',
+      'hash' => 'l1_d3AtY3Jvbi5waHA',
+      'name' => 'wp-cron.php',
+      'phash' => 'l1_Lw',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566183,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudA',
+      'name' => 'wp-content',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '364',
+      'hash' => 'l1_d3AtYmxvZy1oZWFkZXIucGhw',
+      'name' => 'wp-blog-header.php',
+      'phash' => 'l1_Lw',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566187,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtaW5jbHVkZXM',
+      'name' => 'wp-includes',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3Atc25hcHNob3Rz',
+      'name' => 'wp-snapshots',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlYzJkMTFkODc2OWVkOTBiMi5odG1s',
+      'name' => 'googlec2d11d8769ed90b2.html',
+      'phash' => 'l1_Lw',
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/html',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '34327',
+      'hash' => 'l1_d3AtbG9naW4ucGhw',
+      'name' => 'wp-login.php',
+      'phash' => 'l1_Lw',
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3301',
+      'hash' => 'l1_d3AtbG9hZC5waHA',
+      'name' => 'wp-load.php',
+      'phash' => 'l1_Lw',
+    ),
+    10 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtYWRtaW4',
+      'name' => 'wp-admin',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    11 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1627',
+      'hash' => 'l1_d3AtY29tbWVudHMtcG9zdC5waHA',
+      'name' => 'wp-comments-post.php',
+      'phash' => 'l1_Lw',
+    ),
+    12 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '53',
+      'hash' => 'l1_Z29vZ2xlZTI4YzJkOWM5ZDA4YWJjMC5odG1s',
+      'name' => 'googlee28c2d9c9d08abc0.html',
+      'phash' => 'l1_Lw',
+    ),
+    13 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '4513',
+      'hash' => 'l1_d3AtdHJhY2tiYWNrLnBocA',
+      'name' => 'wp-trackback.php',
+      'phash' => 'l1_Lw',
+    ),
+    14 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '25848253',
+      'hash' => 'l1_Y2x1YmtpZDIxOG1heTE2LnNxbA',
+      'name' => 'clubkid218may16.sql',
+      'phash' => 'l1_Lw',
+    ),
+    15 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2422',
+      'hash' => 'l1_d3AtbGlua3Mtb3BtbC5waHA',
+      'name' => 'wp-links-opml.php',
+      'phash' => 'l1_Lw',
+    ),
+    16 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3149',
+      'hash' => 'l1_d3AtY29uZmlnLnBocA',
+      'name' => 'wp-config.php',
+      'phash' => 'l1_Lw',
+    ),
+    17 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2100',
+      'hash' => 'l1_Lmh0YWNjZXNz',
+      'name' => '.htaccess',
+      'phash' => 'l1_Lw',
+    ),
+    18 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '418',
+      'hash' => 'l1_aW5kZXgucGhw',
+      'name' => 'index.php',
+      'phash' => 'l1_Lw',
+    ),
+    19 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '29924',
+      'hash' => 'l1_d3Atc2lnbnVwLnBocA',
+      'name' => 'wp-signup.php',
+      'phash' => 'l1_Lw',
+    ),
+    20 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/html',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '7413',
+      'hash' => 'l1_cmVhZG1lLmRjYWNlZGIwNDBhOTljZjNiN2E0MTRmZWFlNjVmYWMzLmh0bWw',
+      'name' => 'readme.dcacedb040a99cf3b7a414feae65fac3.html',
+      'phash' => 'l1_Lw',
+    ),
+    21 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '16200',
+      'hash' => 'l1_d3Atc2V0dGluZ3MucGhw',
+      'name' => 'wp-settings.php',
+      'phash' => 'l1_Lw',
+    ),
+    22 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566187,
+      'read' => 1,
+      'write' => 1,
+      'size' => '2853',
+      'hash' => 'l1_d3AtY29uZmlnLXNhbXBsZS5waHA',
+      'name' => 'wp-config-sample.php',
+      'phash' => 'l1_Lw',
+    ),
+    23 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '24',
+      'hash' => 'l1_cm9ib3RzLnR4dA',
+      'name' => 'robots.txt',
+      'phash' => 'l1_Lw',
+    ),
+    24 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-pascal',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19935',
+      'hash' => 'l1_bGljZW5zZS50eHQ',
+      'name' => 'license.txt',
+      'phash' => 'l1_Lw',
+    ),
+    25 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566187,
+      'read' => 1,
+      'write' => 1,
+      'size' => '19',
+      'hash' => 'l1_MS5waHA',
+      'name' => '1.php',
+      'phash' => 'l1_Lw',
+    ),
+    26 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '5447',
+      'hash' => 'l1_d3AtYWN0aXZhdGUucGhw',
+      'name' => 'wp-activate.php',
+      'phash' => 'l1_Lw',
+    ),
+    27 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3065',
+      'hash' => 'l1_eG1scnBjLnBocA',
+      'name' => 'xmlrpc.php',
+      'phash' => 'l1_Lw',
+    ),
+    28 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_LnRtYg',
+      'name' => '.tmb',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+    ),
+  ),
+  'api' => '2.1',
+  'uplMaxSize' => '2M',
+  'uplMaxFile' => '20',
+  'netDrivers' => 
+  array (
+  ),
+  'maxTargets' => 1000,
+) 
+[Wed, 30 Aug 2017 00:05:16 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1502566183,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudA',
+    'name' => 'wp-content',
+    'phash' => 'l1_Lw',
+    'volumeid' => 'l1_',
+    'dirs' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'clubkidpreneur.com/wp-content',
+    'url' => 'http://clubkidpreneur.com/',
+    'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => '3205',
+      'hash' => 'l1_d3AtY29udGVudC93cC1jYWNoZS1jb25maWcucGhw',
+      'name' => 'wp-cache-config.php',
+      'phash' => 'l1_d3AtY29udGVudA',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC90aGVtZXM',
+      'name' => 'themes',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1504048305,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC93ZmxvZ3M',
+      'name' => 'wflogs',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC93ZWJmb250cw',
+      'name' => 'webfonts',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/plain',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => '1266',
+      'hash' => 'l1_d3AtY29udGVudC9NeUZvbnRzV2ViZm9udHNLaXQuY3Nz',
+      'name' => 'MyFontsWebfontsKit.css',
+      'phash' => 'l1_d3AtY29udGVudA',
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'text/x-php',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => '28',
+      'hash' => 'l1_d3AtY29udGVudC9pbmRleC5waHA',
+      'name' => 'index.php',
+      'phash' => 'l1_d3AtY29udGVudA',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1503612332,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9wbHVnaW5z',
+      'name' => 'plugins',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC9tdS1wbHVnaW5z',
+      'name' => 'mu-plugins',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566178,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'name' => 'uploads',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    9 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1503612332,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGdyYWRl',
+      'name' => 'upgrade',
+      'phash' => 'l1_d3AtY29udGVudA',
+      'volumeid' => 'l1_',
+    ),
+  ),
+) 
+[Wed, 30 Aug 2017 00:05:23 +0000] PARENTS: array (
+  'tree' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'ts' => 1502859723,
+      'mime' => 'directory',
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_Lw',
+      'name' => 'clubkidpreneur.com',
+      'rootRev' => '',
+      'options' => 
+      array (
+        'path' => '',
+        'url' => 'http://clubkidpreneur.com/',
+        'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+        'disabled' => 
+        array (
+          0 => 'chmod',
+        ),
+        'separator' => '/',
+        'copyOverwrite' => 1,
+        'uploadOverwrite' => 1,
+        'uploadMaxSize' => 9223372036854775807,
+        'uploadMaxConn' => 3,
+        'uploadMime' => 
+        array (
+          'firstOrder' => 'allow',
+          'allow' => 
+          array (
+            0 => 'text',
+            1 => 'image',
+            2 => 'video',
+            3 => 'audio',
+            4 => 'application',
+            5 => 'model',
+            6 => 'chemical',
+            7 => 'x-conference',
+            8 => 'message',
+          ),
+          'deny' => 
+          array (
+          ),
+        ),
+        'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+        'jpgQuality' => 100,
+        'archivers' => 
+        array (
+          'create' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'extract' => 
+          array (
+            0 => 'application/x-tar',
+            1 => 'application/x-gzip',
+            2 => 'application/x-bzip2',
+            3 => 'application/x-xz',
+            4 => 'application/zip',
+          ),
+          'createext' => 
+          array (
+            'application/x-tar' => 'tar',
+            'application/x-gzip' => 'tgz',
+            'application/x-bzip2' => 'tbz',
+            'application/x-xz' => 'xz',
+            'application/zip' => 'zip',
+          ),
+        ),
+        'uiCmdMap' => 
+        array (
+        ),
+        'syncChkAsTs' => 1,
+        'syncMinMs' => 10000,
+        'i18nFolderName' => 0,
+        'tmbCrop' => 1,
+        'csscls' => 'elfinder-navbar-root-local',
+      ),
+      'volumeid' => 'l1_',
+      'locked' => 1,
+      'dirs' => 1,
+      'isroot' => 1,
+      'phash' => '',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566183,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudA',
+      'name' => 'wp-content',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566187,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtaW5jbHVkZXM',
+      'name' => 'wp-includes',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566151,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3Atc25hcHNob3Rz',
+      'name' => 'wp-snapshots',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566152,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtYWRtaW4',
+      'name' => 'wp-admin',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566185,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_LnRtYg',
+      'name' => '.tmb',
+      'phash' => 'l1_Lw',
+      'volumeid' => 'l1_',
+    ),
+  ),
+) 
+[Wed, 30 Aug 2017 00:05:23 +0000] OPEN: array (
+  'cwd' => 
+  array (
+    'isowner' => false,
+    'ts' => 1502566178,
+    'mime' => 'directory',
+    'read' => 1,
+    'write' => 1,
+    'size' => 0,
+    'hash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+    'name' => 'uploads',
+    'phash' => 'l1_d3AtY29udGVudA',
+    'volumeid' => 'l1_',
+    'dirs' => 1,
+  ),
+  'options' => 
+  array (
+    'path' => 'clubkidpreneur.com/wp-content/uploads',
+    'url' => 'http://clubkidpreneur.com/',
+    'tmbUrl' => 'http://clubkidpreneur.com/.tmb/',
+    'disabled' => 
+    array (
+      0 => 'chmod',
+    ),
+    'separator' => '/',
+    'copyOverwrite' => 1,
+    'uploadOverwrite' => 1,
+    'uploadMaxSize' => 9223372036854775807,
+    'uploadMaxConn' => 3,
+    'uploadMime' => 
+    array (
+      'firstOrder' => 'allow',
+      'allow' => 
+      array (
+        0 => 'text',
+        1 => 'image',
+        2 => 'video',
+        3 => 'audio',
+        4 => 'application',
+        5 => 'model',
+        6 => 'chemical',
+        7 => 'x-conference',
+        8 => 'message',
+      ),
+      'deny' => 
+      array (
+      ),
+    ),
+    'dispInlineRegex' => '^(?:(?:image|text)|application/x-shockwave-flash$)',
+    'jpgQuality' => 100,
+    'archivers' => 
+    array (
+      'create' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'extract' => 
+      array (
+        0 => 'application/x-tar',
+        1 => 'application/x-gzip',
+        2 => 'application/x-bzip2',
+        3 => 'application/x-xz',
+        4 => 'application/zip',
+      ),
+      'createext' => 
+      array (
+        'application/x-tar' => 'tar',
+        'application/x-gzip' => 'tgz',
+        'application/x-bzip2' => 'tbz',
+        'application/x-xz' => 'xz',
+        'application/zip' => 'zip',
+      ),
+    ),
+    'uiCmdMap' => 
+    array (
+    ),
+    'syncChkAsTs' => 1,
+    'syncMinMs' => 10000,
+    'i18nFolderName' => 0,
+    'tmbCrop' => 1,
+  ),
+  'files' => 
+  array (
+    0 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzL2Z1c2lvbl9zbGlkZXJfZXhwb3J0cw',
+      'name' => 'fusion_slider_exports',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+    ),
+    1 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566178,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzL2F2YWRhcmVkdXg',
+      'name' => 'avadaredux',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+    ),
+    2 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566183,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzLzIwMTU',
+      'name' => '2015',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    3 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566178,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzLzIwMTc',
+      'name' => '2017',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    4 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566174,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzLzIwMTY',
+      'name' => '2016',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+    5 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzL2F2YWRhLXN0eWxlcw',
+      'name' => 'avada-styles',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+    ),
+    6 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566178,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzL2ZpbGUtbWFuYWdlcg',
+      'name' => 'file-manager',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+    ),
+    7 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzL2Z1c2lvbi1idWlsZGVyLWF2YWRhLXBhZ2Vz',
+      'name' => 'fusion-builder-avada-pages',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+    ),
+    8 => 
+    array (
+      'isowner' => false,
+      'mime' => 'directory',
+      'ts' => 1502566166,
+      'read' => 1,
+      'write' => 1,
+      'size' => 0,
+      'hash' => 'l1_d3AtY29udGVudC91cGxvYWRzL3JldnNsaWRlcg',
+      'name' => 'revslider',
+      'phash' => 'l1_d3AtY29udGVudC91cGxvYWRz',
+      'volumeid' => 'l1_',
+      'dirs' => 1,
+    ),
+  ),
+) 

@@ -1,0 +1,512 @@
+<script type="text/javascript">
+jQuery(document).ready(function(e){
+    $( 'textarea.short_bio_info' ).ckeditor();
+ $( 'textarea.executive_sum_info' ).ckeditor();
+   });
+</script>
+<div class="col-md-10 content-wraaper settings-labels">
+    <div class="sage-dash-wrap full-wrap">
+        <div class="title dashboard-title">
+            <h1 style="text-transform:uppercase">Settings</h1>            
+        </div>
+        <div class="home-display row">
+            <div class="col-md-12 ">
+                <?php //pr($userData);?>
+                <!-- <ul class="nav nav-tabs tabs setting-tab">
+                    <li class="active"><a href="#general" data-toggle="tab">
+                        General
+                        </a>
+                    </li>
+                   <li><a href="#e-scene" data-toggle="tab">
+                        E|Scene Avatar
+                        </a>
+                    </li>
+                </ul> -->
+                <div class="tab-content setting">
+                    <div class="tab-pane active" id="general">
+                        <div class="hide-new forms clearfix">
+                            <?php echo $this->Session->Flash();?>
+                            <form class="form-horizontal" role="form">
+                                <a href="#" class="btn btn-orange-small" id="edit-div">Edit</a>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Name</label>
+                                    <div class="col-sm-4 control-value align-left user-name-lable"> <?php echo ucfirst($userData['User']['first_name']) .' '.ucfirst($userData['User']['last_name']);?> </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Title | Business Name</label>
+                                    <div class="col-sm-4 control-value align-left designation-lable"> <?php echo $userData['UserProfile']['designation'];?> </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label dashboard-label">Gender</label>
+                                    <div class="col-sm-4 control-value align-left gender-label"><?php echo $userData['User']['gender'];?></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Email Id</label>
+                                    <div class="col-sm-4 control-value  align-left"> <?php echo $userData['User']['email_address'];?> </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Country</label>
+                                    <div class="col-sm-4 control-value  align-left location-label"> <?php echo  $user_country_title['Country']['country_title'];?> </div>   
+                                </div>
+                                 <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">City</label>
+                                    <div class="col-sm-4 control-value align-left city-lable"> <?php echo $userData['UserProfile']['city'];?> </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Identity</label>
+                                    <div class="col-sm-4 control-value  align-left stage-label"> <?php echo @$stage_value['Stage']['stage_title'];?> </div> 
+                                </div>
+                                 <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Where will you live in Entropolis?</label>
+                                    <div class="col-sm-4 control-value  align-left decisiontype-lable"> <?php echo @$decision_type_value['DecisionType']['decision_type'];?> </div> 
+                                </div>
+
+                                 <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Are you part of a group?</label>
+                                    <div class="col-sm-4 control-value  align-left groupcode-label"> <?php echo $userData['User']['group_code'];?> </div> 
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Short Biography</label>
+                                    <div class="col-sm-10 control-value  align-left short_bio_info-label"> <?php echo @$userData['UserProfile']['short_bio'];?> </div> 
+                                </div>
+                                 <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Key Experience and Expertise</label>
+                                    <div class="col-sm-10 control-value  align-left executive_sum_info-label"> <?php echo @$userData['UserProfile']['executive_summary'];?> </div> 
+                                </div>
+
+                                
+                                <div class="form-group">
+                                    <label class="col-sm-6 control-label dashboard-label">What will you use Entropolis for </label>                           
+                                </div>
+                                <div class="checkbox-btn">
+                                    <ul class="choosen-guidelines">
+                                <?php foreach($userData['UserEntropolisGuideline'] as $key=>$guideline){
+                                    $guideLineId = $guideline['entropolis_guideline_id'];
+                                    $guideLineName = $this->Guideline->guideLineName($guideLineId);
+                                    //pr($guideLineName);
+                                   ?>
+                                 
+                                        <li class="control-value align-left"><?php echo $guideLineName['EntropolisGuideline']['guideline'];?></li>
+                                    
+                                <?php 
+                                }?>
+                                </ul> 
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label dashboard-label">LinkedIn</label>
+                                    <div class="col-sm-4 linkedin-network-label"><?php echo $userData['User']['linkedin_network'];?></div>
+                                </div>
+                                 <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label dashboard-label">Facebook</label>
+                                    <div class="col-sm-4 facebook-network-label"><?php echo $userData['User']['facebook_network'];?></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label dashboard-label">Twitter</label>
+                                    <div class="col-sm-4 twitter-followers-label"><?php echo $userData['User']['twitter_followers'];?></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label dashboard-label">Blog</label>
+                                    <div class="col-sm-4 user-blog-label"><?php echo $userData['User']['blog'];?></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="" class="col-sm-2 control-label dashboard-label">Other</label>
+                                    <div class="col-sm-4 other-url-label"><?php echo $userData['User']['other_url']; ?></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label dashboard-label">Password</label>
+                                    <div class="col-sm-4 control-value align-left"> <a href="#" data-toggle="modal" data-target="#change-password">Change Password</a> </div>
+                                </div>
+                            </form>
+                             <?php echo $this->Form->create('UserProfileinfo', array('class'=>'form-horizontal', 'enctype'=>'multipart/form-data', 'url'=>'/Users/upload_avatar'));
+                            $choosen = 0;
+                             ?>   
+                        <div class="forms-setting">
+                            <?php echo $this->Session->Flash();?>
+                            <div class="avatar-wrap">
+                                <div class="avatar-choosed" style="display:none"></div>
+                                <h4>Choose your Avatar</h4>
+                                <?php echo $this->Form->hidden('user_image', array('class'=>'user-image', 'value'=>''));?>
+                                <div class="user-avatar"> 
+                                    <img src="<?php echo $this->Html->url('/').'upload/'.'avatar-male-1.png';?>" class="img-thumbnail user-avatar-select">
+                                    <?php 
+                                        if($userData['User']['user_image'] == 'upload/avatar-male-1.png'){ 
+                                        $choosen = 1;
+                                            echo '<div class="avatar-choosed" style="display:block"></div>';
+                                        } ?>
+                                </div>
+                                <div class="user-avatar"> 
+                                    <img src="<?php echo $this->Html->url('/').'upload/'.'dummy-pic.png';?>" class="img-thumbnail user-avatar-select">
+                                    <?php 
+                                        if($userData['User']['user_image'] == 'upload/dummy-pic.png'){
+                                        $choosen = 1;
+                                            echo '<div class="avatar-choosed" style="display:block"></div>';
+                                        } ?>
+                                </div>
+                                <?php if($choosen == 0 && $userData['User']['user_image'] != ''){ ?>
+                                <div class="user-avatar">
+                                    <img src="<?php echo $this->Html->url('/').$this->Image->resize($userData['User']['user_image'] . '', 128, 128, true);?>" class="img-thumbnail user-avatar-select">
+                                    <div class="avatar-choosed" style="display:block"></div>
+                                </div>
+                                <?php } ?> 
+                            </div>
+                            <div class="form-group width">
+                                <label class="col-sm-3 control-label dashboard-label">Upload Avatar</label>
+                                <div class="col-sm-8 padding-left-none">
+                                    <input type="file" name="data[UserProfileinfo][profile_image]" style="padding-left:5px;">                          
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label dashboard-label"></label>
+                                <div class="col-sm-8 padding-left-none">
+                                    <?php echo $this->Form->submit('Update', array('class'=>'btn btn-orange-small'));?>                     
+                                </div>
+                            </div>
+                        </div>
+                        <?php echo $this->Form->end();?>
+
+                        </div>
+                        <div id="edit-general" class="forms">
+                            <div id="update-msg"> </div>
+
+                              <a href="#" class="btn btn-orange-small right" id="back-button">Back</a>
+
+                            <?php echo $this->form->create('User', array('class'=>'form-horizontal', 'id'=>'user-detail', 'role'=>'form', 'url'=>'/users/settings', 'default' => false));?>   
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Name</label>
+                                <div class="col-sm-4">
+                                    <input type="text" required name='user_name' class="form-control user-name-inp" id="exampleInputUserName" value="<?php echo ucfirst($userData['User']['first_name']). ' '.ucfirst($userData['User']['last_name']);?>">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Title | Business Name</label>
+                                <div class="col-sm-4">
+                                    <input type="text"  name='designation' class="form-control designation" id="exampleInputUserName" value="<?php echo $userData['UserProfile']['designation'];?>">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-2 control-label dashboard-label">Gender</label>
+                                <div class="col-sm-4">
+                                    <div class="radio-btn" style="width:100px; float:left" >
+                                        <input id="Female" required type="radio" name="gender" class="gender-inp" value="Female" <?php echo $userData['User']['gender'] == 'Female' ? 'checked' : '';?>>
+                                        <label class="custom-radio" for="Female">Female</label>
+                                    </div>
+                                    <div class="radio-btn" style="width:100px; float:left">
+
+                                        <input id="Male" required type="radio" name="gender" class="gender-inp" value="Male" <?php echo $userData['User']['gender'] == 'Male' ? 'checked' : '';?>>
+                                        <?php if($userData['User']['gender']==''){
+                                            ?>
+                                            <input id="Male" required type="radio" name="gender" class="gender-inp" value="Male" checked = "checked">
+                                            <?php } ?>
+                                        <label class="custom-radio" for="Male">Male</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Email Id</label>
+                                <div class="col-sm-4 ">
+                                    <input type="email" required class="form-control" disabled id="exampleInputEmail1" value="<?php echo $userData['User']['email_address'];?>">
+                                </div>
+                            </div>
+                           
+                           <div class="form-group">
+                               <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Country</label>
+                                <div class="col-sm-4">
+
+                                     <select name = "country_id" class= 'form-control location' required>
+                                        <option value = ''>Country</option>
+                                    <?php 
+                                   
+                                    foreach ($country as $value) {?>                           
+                                   
+                                        <option value ="<?php echo $value['Country']['id'] ?>" <?php if ($value['Country']['id'] == $userData['User']['country_id']) echo 'selected="selected"'?> ><?php echo $value['Country']['country_code'].'-'.$value['Country']['country_title']?></option>
+
+                                   
+
+                                 <?php }   ?>
+                             
+                                     </select>
+
+
+                                    <?php // echo $this->Form->input('location',array('class'=>'form-control location', 'placeholder'=>'Location', 'label'=>false, 'value'=>$userData['User']['location'])); ?>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">City</label>
+                                <div class="col-sm-4">
+                                    <input type="text"  name='city' class="form-control city" id="exampleInputUserName" value="<?php echo $userData['UserProfile']['city'];?>">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Identity</label>
+                                <div class="col-sm-4">
+
+                             <select name = "stage_id" class= 'form-control stage' required>
+                                <option value = ''>Identity</option>
+                                    <?php 
+
+                                    foreach ($stage as $values) {?>                           
+                                   
+                                        <option value ="<?php echo $values['Stage']['id'] ?>" <?php if ($values['Stage']['id'] == $userData['User']['stage_id']) echo 'selected="selected"'?> > <?php echo $values['Stage']['stage_title'];?></option>
+                                 <?php }   ?>
+                             
+                            </select>
+                                </div>
+                            </div> 
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Where will you live in Entropolis?</label>
+                                <div class="col-sm-4">
+
+                             <select name = "decision_type_id" class= 'form-control decisiontype' required>
+                                <option value = ''>Where will you live in Entropolis?</option>
+                                    <?php 
+
+                                    foreach ($decision_type as $values) {?>                           
+                                   
+                                        <option value ="<?php echo $values['DecisionType']['id'] ?>" <?php if ($values['DecisionType']['id'] == $userData['User']['decision_type_id']) echo 'selected="selected"'?> > <?php echo $values['DecisionType']['decision_type'];?></option>
+                                 <?php }   ?>
+                             
+                            </select>
+                                </div>
+                            </div> 
+
+                             <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Are you part of a group?</label>
+                                <div class="col-sm-4">
+                                    <input type="text" required name='group_code' class="form-control groupcode" id="groupcode" value="<?php echo $userData['User']['group_code'];?>">
+                                </div>
+                            </div>
+
+                             <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Short Biography</label>
+                                <div class="col-sm-4 ">
+                                    <textarea class="form-control short_bio_info" name = "short_bio" id="short_bio_info" ><?php echo $userData['UserProfile']['short_bio'];?></textarea>
+                                  
+                                </div>
+                            </div> 
+
+                               <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Key Experience and Expertise</label>
+                                <div class="col-sm-4 ">
+                                    <textarea class="form-control executive_sum_info" name = "executive_summary" id="" ><?php echo $userData['UserProfile']['executive_summary'];?></textarea>
+                                  
+                                </div>
+                                <input type = "hidden" name = "user_profile_id" value='<?php echo $userData['UserProfile']['id'];?>'>
+                            </div>   
+                            
+                           <div class="form-group">
+                            <label class="control-label col-sm-9" style="margin-bottom:10px">What will you use Entropolis for? (Pick 3)</label>
+                            
+                            <?php 
+                            //pr($guideLines);
+                            foreach($guideLines as $key=>$guideLine){ 
+                                $checked = '';
+                                foreach($userData['UserEntropolisGuideline'] as $k=>$choosenGuideline){
+                                    if($guideLine['EntropolisGuideline']['id'] == $choosenGuideline['entropolis_guideline_id']){
+                                        $checked = 'checked'; 
+                                        break;
+                                    }    
+                                }
+                                
+                                
+                                //pr($this->request->data['guidelines']);
+                                ?>
+                                <div class="checkbox-btn col-sm-9">
+                                <input id="chk<?php echo $key;?>" <?php echo $checked;?> type="checkbox" name="guidelines[]" class="guideline-inp" value="<?php echo $guideLine['EntropolisGuideline']['id'];?>">
+                                <label class="custom-radio choose<?php echo $key;?>" for="chk<?php echo $key;?>"><span><?php echo $guideLine['EntropolisGuideline']['guideline'];?></span></label>
+                            </div>
+                                <?php 
+                            } ?>
+                            
+
+                        </div>   
+                              
+                           <div class="form-group">
+                               <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">LinkedIn</label>
+                                <div class="col-sm-4">
+                                    <?php echo $this->Form->input('linkedin_network',array('class'=>'form-control linkedin-network', 'placeholder'=>'URL', 'label'=>false, 'value'=>$userData['User']['linkedin_network'])); ?>
+                                </div>
+                            </div>
+
+                              <div class="form-group">
+                               <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Facebook</label>
+                                <div class="col-sm-4">
+                                    <?php echo $this->Form->input('facebook_network',array('class'=>'form-control facebook-network', 'placeholder'=>'URL', 'label'=>false, 'value'=>$userData['User']['facebook_network'])); ?>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Twitter</label>
+                                <div class="col-sm-4">
+                                    <?php echo $this->Form->input('twitter_followers',array('class'=>'form-control twitter-followers', 'placeholder'=>'URL', 'label'=>false, 'value'=>$userData['User']['twitter_followers'])); ?>
+                                </div>
+                            </div>
+                           
+                            <div class="form-group">
+                               <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Blog</label>
+                                <div class="col-sm-4">
+                                    <?php echo $this->Form->input('blog',array('class'=>'form-control blog', 'placeholder'=>'URL', 'label'=>false, 'value'=>$userData['User']['blog'])); ?>
+                                </div>
+                            </div>  
+                            
+                            <div class="form-group">
+                               <label for="inputEmail3" class="col-sm-2 control-label dashboard-label">Other</label>
+                                <div class="col-sm-4">
+                                    <?php echo $this->Form->input('other_url',array('class'=>'form-control other-url', 'placeholder'=>'URL', 'label'=>false, 'value'=>$userData['User']['other_url'])); ?>
+                                </div>
+                            </div>  
+                              
+                            <div class="form-group">
+                                <div class="col-sm-offset-2 col-sm-10"> 
+                                    <?php echo $this->Form->submit('Done', array('class'=>'btn btn-orange-small update-user', 'id'=>'add-post-button'));?>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- <div  class="tab-pane" id="e-scene">
+                       
+                    </div> -->
+                    <?php echo $this->Form->create('User', array('class'=>'form-horizontal', 'id'=>'change-user-password', 'role'=>'form', 'url'=>'users/changePassword', 'default' => false));?> 
+                    <div class="modal fade" id="change-password" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Change Password</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-4 control-label dashboard-label">Curent Password</label>
+                                        <div class="col-sm-8">
+                                            <?php echo $this->Form->password('current_password', array('class'=>'form-control current-password', 'required'=>'required', 'label'=>'false'));?>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-4 control-label dashboard-label">New Password</label>
+                                        <div class="col-sm-8">
+                                            <?php echo $this->Form->password('new_password', array('class'=>'form-control new-password', 'required'=>'required', 'label'=>'false'));?>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputEmail3" class="col-sm-4 control-label dashboard-label">Confirm Password:</label>
+                                        <div class="col-sm-8 ">
+                                            <?php echo $this->Form->password('confirm_password', array('class'=>'form-control confirm-password', 'required'=>'required', 'label'=>'false'));?>
+                                        </div>
+                                    </div>
+                                    <div id="update-msg-password"> </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <?php echo $this->form->submit('Save', array('class'=>'btn btn-black change-password', 'div'=>false));?>  
+                                    <button type="button" class="btn btn-black" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php echo $this->Form->end();?>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php
+    // Form ID: #user-detail
+    // Div to use for AJAX response: #contactStatus
+
+    $data = $this->Js->get('#user-detail')->serializeForm(array('isForm' => true, 'inline' => true));
+
+
+    $this->Js->get('#user-detail')->event(
+
+       'submit',
+       $this->Js->request(
+        array('action' => 'updateUser', 'controller' => 'users'),
+        array(
+            'update' => '#update-msg',
+            'data' => $data,
+            'async' => true,    
+            'dataExpression'=>true,
+            'method' => 'POST',
+            'complete'=>'$(".user-name-lable").text($(".user-name-inp").val());
+                $(".gender-label").text($(".gender-inp:checked").val());
+              
+                $(".location-label").text($(".location option:selected").text());
+
+                $(".current-status-label").text($(".current-status option:selected").text());
+                $(".linkedin-network-label").text($(".linkedin-network").val());
+                $(".twitter-followers-label").text($(".twitter-followers").val());
+                $(".user-blog-label").text($(".blog").val());
+                $(".other-url-label").text($(".other-url").val());  
+                $(".header-user-name").text($(".user-name-inp").val());
+                $(".short_bio_info-label").html($(".short_bio_info").val());
+
+                $(".executive_sum_info-label").html($(".executive_sum_info").val());
+                $(".city-lable").text($(".city").val());
+                $(".designation-lable").text($(".designation").val());
+                $(".stage-label").text($(".stage option:selected").text());
+                  $(".decisiontype-lable").text($(".decisiontype option:selected").text());
+                    $(".groupcode-label").text($(".groupcode").val());
+
+                appendGuideLineData();'
+        )
+      )
+    );
+    
+    $data = $this->Js->get('#change-user-password')->serializeForm(array('isForm' => true, 'inline' => true));
+    $this->Js->get('#change-user-password')->event(
+       'submit',
+       $this->Js->request(
+        array('action' => 'changePassword', 'controller' => 'users'),
+        array(
+            'update' => '#update-msg-password',
+            'data' => $data,
+            'async' => true,    
+            'dataExpression'=>true,
+            'method' => 'POST'   
+        )
+      )
+    );
+    
+    echo $this->Js->writeBuffer();
+    ?>
+<script type="text/javascript">
+    $(document).ready(function() {
+          //---------------Start Select User avatar while registration --------------//
+            $('.user-avatar-select').click(function(){
+               var $this = $(this),
+               img_wrap = $this.closest('.avatar-wrap'),
+               img_name = $this.prop('src');
+               
+               img_wrap.find('.user-image').val(img_name); 
+               
+            });
+            //---------------End Select User avatar while registration --------------//
+    });
+    
+    function appendGuideLineData(){
+    var temp =   ($(".location option:selected").text()).split('-');
+         $(".location-label").text(temp[1]);
+       var liStr = ''
+        $("input.guideline-inp[type=checkbox]:checked+label").each(function(index,ele){
+            //console.log( "index :"+index +' # '+ $(this).html() )
+            liStr += "<li class='control-value align-left'>"+$(this).html()+'</li>\n';
+        });
+        //console.log('Str before appending : '+liStr);
+       // alert
+        $("ul.choosen-guidelines").empty().html( liStr );
+        
+}
+</script>

@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^clubkidpreneur.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.clubkidpreneur.com [NC]
+#RewriteRule ^(.*)$ http://theentropolis.com/$1 [L,R=301,NC]
+</IfModule>

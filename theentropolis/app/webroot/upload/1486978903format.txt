@@ -1,0 +1,17 @@
+Steps-
+ 
+1. Click on BLOG/MEDIA option of the top Nav bar
+
+2. Click on the footer links(Privacy and Security, Terms and Uses, Emergency services)
+3. Observe the behavior
+
+
+Environment - Web
+Expected Result- Footer links should get redirects to respective pages.
+
+SP03:BLOG/MEDIA Landing Page:
+
+
+
+Jameshugs999@gmail.com
+password:   passwordjames

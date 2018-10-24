@@ -1,0 +1,1 @@
+<?php $SMTP_VERSION = "2.9" ; ?>

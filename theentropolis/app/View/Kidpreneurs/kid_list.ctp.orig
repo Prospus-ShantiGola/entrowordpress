@@ -1,0 +1,490 @@
+<div class="kd-custom-wrapper middle-container custom_scroll" style="padding:1.12rem 1.56rem;">
+
+<<<<<<< HEAD
+    <div class="col-md-12 content-wrapper en-content-wrap" style="padding-top: 15px;height:100vh;">
+=======
+    <div class="col-md-12 content-wrapper en-content-wrap" style="padding: 0px;"><!-- style="padding-top: 15px;"-->
+>>>>>>> 0ceacd147d2513af575ed1da0ba4848cab54f666
+        <div class="">
+            <div class="title_text">
+                <p>Welcome to your very own private business network directory.</p>
+                <p class="cred-para">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet animi, consectetur dolore doloribus, ea et fuga fugit ipsam iusto laboriosam officia omnis porro quibusdam quisquam ratione reprehenderit sapiente voluptatum!
+                </p>
+
+            </div>
+        </div>
+
+        <div class="search-bar clearfix black-btn-wrap margin_top_15 disabled">
+            <div class="row">
+
+                <div class=" col-md-12 pad_right_none search-wrapper">
+                    <form action="#" id="SearchFrm" class="form-inline ng-pristine ng-valid" role="form" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST" autocomplete="off"></div>
+<<<<<<< HEAD
+                        <div class="form-group new-form-group en-topbar-search-panel">
+                            <input type="text" name="" class="form-control input-field" placeholder="Enter username" id="search-name" data-original-title="" title="">
+                            
+                        </div>
+                        <div class="btn-wrap right add-hindsight cred_street_advance" style="position: relative;">
+                            <button type="button" class=" search-bar-button1 btn-black" onclick="search();">Go</button>
+                            <a class="advanced-search"><i class="fa fa-search"></i> Advanced Search</a>
+
+                            <div class="advanced-search-form arrow_box-a" style="display: none;">
+                                <p>Advanced Search <span style="float:right;"><i class="icons close-icon closeAdvanceSearch"></i></span></p>
+                                <form role="form" action="" method="post" id="AdvanceSearchFrm" class="ng-pristine ng-valid">
+                                    
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="advance_search_keyword_search" placeholder="Keyword (name)" name="advsearchtext" title="" value="" data-placement="left" data-original-title="Alphanumeric or special characters only">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="advance_search_group_code_search" placeholder="Group Code" name="group_code" title="" value="" data-placement="left" data-original-title="Group Code">
+                                    </div>
+                                    <button type="button" class="btn btn-black right closeAdvanceSearch" style="width: 80px;">Cancel</button>
+                                    <button type="submit" class="btn btn-black  margin-right right" style="width: 80px;">Submit</button>
+                                </form>
+=======
+                            <div class="form-group new-form-group en-topbar-search-panel">
+                                <input type="text" name="" class="form-control input-field" placeholder="Enter username" id="search-name" data-original-title="" title="">
+                                <input type="email" name="" class="form-control input-field" placeholder="Enter email" id="search-email" data-original-title="" title="">
+                                <select name="data[Search][search_keyword_search]" class="form-control get-user-value select-field" id="search_keyword_search" data-original-title="" title="">
+                                    <option value="">All</option>
+                                    <option value="hq">Entropolis | HQ</option>
+                                    <option value="11">EntropolisKC | Educator</option>
+                                    <option value="10">EntropolisKC | Parent</option>
+                                    <option value="14" disabled="disabled">Other Support peeps</option>
+                                </select>
+                                <select name="data[Search][user_id]" class="form-control select-field" id="user_id" data-original-title="" title="">
+                                    <option value="">All Citizens</option>
+                                    <option value="386-EntropolisHQ">EntropolisHQ</option>
+                                </select>
+                            </div>
+                            <div class="btn-wrap right add-hindsight cred_street_advance" style="position: relative;">
+                                <button type="button" class=" search-bar-button1 btn-black" onclick="search();">Go</button>
+                                <a class="advanced-search"><i class="fa fa-search"></i> Advanced Search</a>
+
+                                <div class="advanced-search-form arrow_box-a" style="display: none;">
+                                    <p>Advanced Search <span style="float:right;"><i class="icons close-icon closeAdvanceSearch"></i></span></p>
+                                    <form role="form" action="" method="post" id="AdvanceSearchFrm" class="ng-pristine ng-valid">
+
+                                        <div class="form-group">
+                                            <div class="input select"><select name="data[Search][decision_type_id]" id="advance_search_decision_type_id" class="form-control" data-original-title="" title="">
+                                                    <option value="">Category</option>
+                                                    <option value="18">Entrepreneurship Education</option>
+                                                    <option value="19">Stem Education</option>
+                                                    <option value="20">Future Of Education</option>
+                                                    <option value="21">Edutech</option>
+                                                    <option value="22">Jobs Of The Future</option>
+                                                    <option value="23">Young Entrepreneurship</option>
+                                                    <option value="24">Club Kidpreneur Library</option>
+                                                    <option value="25">Entrepreneurs Of The Future</option>
+                                                    <option value="26">Superheroes Wisdom</option>
+                                                </select></div>
+                                        </div>
+                                        <div class="form-group add-category">
+                                            <div class="input select"><select name="data[Search][category_id]" id="advance_search_category_id" class="form-control" data-original-title="" title="">
+                                                    <option value="">Identity</option>
+                                                    <option value="2">HQ</option>
+                                                    <option value="3">Parent</option>
+                                                    <option value="4">Kidpreneur</option>
+                                                </select></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="advance_search_keyword_search" placeholder="Keyword (name)" name="advsearchtext" title="" value="" data-placement="left" data-original-title="Alphanumeric or special characters only">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="advance_search_group_code_search" placeholder="Group Code" name="group_code" title="" value="" data-placement="left" data-original-title="Group Code">
+                                        </div>
+                                        <button type="button" class="btn btn-black right closeAdvanceSearch" style="width: 80px;">Cancel</button>
+                                        <button type="submit" class="btn btn-black  margin-right right" style="width: 80px;">Submit</button>
+                                    </form>
+                                </div>
+>>>>>>> 0ceacd147d2513af575ed1da0ba4848cab54f666
+                            </div>
+                    </form>
+<<<<<<< HEAD
+
+                </div>
+=======
+                    </div>
+<!--                    <div class="right add-hindsight cred_street_advance" style="position: relative;">-->
+<!--                        <!--    <ul>-->
+<!--                        <!--                        <li><a class="advanced-search"><i class="fa fa-search"></i> Advanced Search</a></li>-->
+<!--                        <!--                    </ul>-->
+<!---->
+<!--                    </div>-->
+              
+>>>>>>> 0ceacd147d2513af575ed1da0ba4848cab54f666
+
+
+            </div>
+        </div>
+
+        <div class="list-view-container">
+            <div class="row">
+               
+
+<<<<<<< HEAD
+
+                <div class="col-md-12 col-sm-12 tab-content-hindsight">
+=======
+                <div class="col-md-9 col-sm-9">
+>>>>>>> 0ceacd147d2513af575ed1da0ba4848cab54f666
+                    <div class="list-view ">
+                        <table class="table table-condensed">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>Username</th>
+                                <th>kidpreneurs</th>
+                                <th>School Name</th>
+                                <th>View Business Profile</th>
+                                <th>Actions</th>
+                            </tr>
+                            </thead>
+<<<<<<< HEAD
+                           <tbody class="custom_scroll_" style="height: 582px;">
+                                     <?php $disbleClass = "";
+                                        if (!empty($user_data)) {
+
+                                           //pr($user_data);
+                                            foreach ($user_data as $rec) {
+                                                echo   $this->element('listing_kid_element',array('rec'=>$rec));
+                                            }
+                                            }
+                                        else {
+                                            ?>
+                                             <?php if ($this->Session->read('isAdmin') == 1) { 
+                                                    $col = 8;
+                                                }else {
+                                                    $col = 5;
+                                                }?>
+                                        <tr>
+                                            <td colspan= "<?php echo $col;?>" style = "background-color:#f2f2f2; text-align:center;" class="no-record">No records found.</td>
+                                        </tr>
+                                <?php } ?>
+
+                                      
+                               </tbody>
+=======
+                            <tbody>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                                <td>july@example.com</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Dooley</td>
+                                <td>july@example.com</td>
+                                <td>july@example.com</td>
+                            </tr>
+
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/trepicity/img/sage-icon1.svg" width="20" alt="">John</td>
+                                <td>Moe</td>
+                                <td>mary@example.com</td>
+                                <td>mary@example.com</td>
+                            </tr>
+                            </tbody>
+>>>>>>> 0ceacd147d2513af575ed1da0ba4848cab54f666
+                        </table>
+
+                        <button  class="btn btn-blue right disabled">load More</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('body').on('change', '#user_id', function () {
+        $('#active_user_id').val(this.value);
+        $('#active_user_name').val(jQuery('#user_id option:selected').text());
+        // alert($('#active_user_name').val());
+    });
+
+    function getListData(tabname, decision_type_id, type, load_row, name, email)
+    {
+        $('.loading').show();
+        $('.advanced-search-form').hide();
+        if (type == 'tab' || type == 'advance_search')
+        {
+            $('#active_tab_name').val(tabname);
+            $('#active_tab_id').val(decision_type_id);
+
+            if (type == 'tab') {
+                $('#search-name').val('');
+                $('#search-email').val('');
+                $('#search_keyword_search').prop('selectedIndex', 0);
+                $('#user_id').prop('selectedIndex', 0);
+                $('#active_user_id').val('');
+                $('#active_keyword_type').val('');
+                $('#active_category_id').val('');
+                $('#active_keyword_search').val('');
+                $('#active_groupcode_search').val('');
+            }
+        }
+        if (type == 'search')
+        {
+            $('#active_keyword_search').val('');
+
+        }
+        if (type == 'advance_search')
+        {
+            $('#active_keyword_type').val('');
+            $('#search-name').val('');
+            $('#search-email').val('');
+        }
+
+        if (decision_type_id == '' && $('#active_category_id').val() == '' && $('#active_keyword_search').val() == '' && $('#active_user_id').val() == '' && tabname == '' && $('#active_keyword_type').val() == '' && type == 'loadmore')
+        {
+            var order = '';
+
+        } else
+        {
+            var order = '1';
+        }
+
+        jQuery.ajax({
+            url: '<?php echo $this->webroot ?>kidpreneurs/get_user_list/',
+            data: {
+                'tab_name': tabname,
+                'decision_type_id': decision_type_id,
+                'fetch_type': type,
+                'category_id': $('#active_category_id').val(),
+                'keyword_search': $('#active_keyword_search').val(),
+                'groupcode_search': $('#active_groupcode_search').val(),
+                'user_role': $('#active_keyword_type').val(),
+                'load_row': load_row,
+                'owner_user_id': $('#active_user_id').val(),
+                'order': order,
+                'name': name,
+                'email': email
+            },
+            type: 'POST',
+            success: function (data) {
+                $('.loading').hide();
+                var dataarr = data.split('#$$#');
+                if (type == 'loadmore')
+                {
+                    jQuery('.table tbody ').append(dataarr[0]);
+                } else
+                {
+                    jQuery('.tab-content-hindsight').html(dataarr[0]);
+                }
+                var rowCount = $('.table-condensed >tbody >tr').length;
+                if (dataarr[1] <= rowCount)
+                {
+                    $('#loadmorebtn').hide();
+
+                } else
+                {
+                    $('#loadmorebtn').show();
+                }
+                categoryHT();
+                // var colHIG = $('.cat-right-col').height();
+                // $('.cat-left-col').css({minHeight: colHIG});
+                 $('[data-toggle="tooltip"]').tooltip(); 
+            }
+        });
+    }
+
+    function loadmoredata() {
+        var tabname = $('#active_tab_name').val();
+        var decision_type_id = $('#active_tab_id').val();
+        var name = $('#search-name').val();
+        var email = $('#search-email').val();
+        var rowCount = $('.table-condensed >tbody >tr').length;
+        getListData(tabname, decision_type_id, 'loadmore', rowCount, name, email);
+    }
+
+    function advanceSearch()
+    {
+        var tabname = $("#advance_search_decision_type_id option:selected").text();
+        var tabname = tabname.replace(/[^A-Za-z0-9]/g, "");
+
+        if (tabname == 'Category') {
+            tabname = 'all-hindsights';
+        }
+        var decision_type_id = $('#advance_search_decision_type_id').val();
+        var category_id = $('#advance_search_category_id').val();
+        var keyword_search = $('#advance_search_keyword_search').val();
+        var groupcode_search = $('#advance_search_group_code_search').val();
+        $('#active_tab_name').val(tabname);
+        $('#active_tab_id').val(decision_type_id);
+        $('#active_category_id').val(category_id);
+        $('#active_keyword_search').val(keyword_search);
+        $('#active_groupcode_search').val(groupcode_search);
+        getListData(tabname, decision_type_id, 'advance_search', 0);
+        $('ul.tabs li').removeClass('active');
+        $('#' + tabname + '-tab').closest('li').addClass('active');
+        $('.advanced-search-form').hide();
+        // $('#advance_search_keyword_search').val('');
+    }
+
+    $('#AdvanceSearchFrm').bind("submit", function (e) {
+        e.preventDefault();
+        advanceSearch();
+        return false;
+    });
+
+    function search()
+    {
+        var keyword_search = $('#search_keyword_search option:selected').val();
+        var tabname = $('ul.tabs li.active a').attr('id');
+        var tabname = $('#active_tab_name').val();
+        var decision_type_id = $('#active_tab_id').val();
+        var name = $('#search-name').val();
+        var email = $('#search-email').val();
+        $('#active_category_id').val('');
+        $('#active_groupcode_search').val('');
+        $('#active_keyword_type').val(keyword_search);
+        getListData(tabname, decision_type_id, 'search', 0, name, email);
+    }
+
+    $('#SearchFrm').bind("submit", function (e) {
+        e.preventDefault();
+        search();
+        return false;
+    });
+
+
+    $('body').on('change', '#UserchallangeinfoProfileForm #decision_type_id', function () {
+        jQuery(".category").show();
+        $.ajax({
+            url: '<?php echo $this->webroot ?>challengers/decision_category/',
+            data: {
+                id: this.value
+            },
+            type: 'get',
+            success: function (data) {
+                $('#UserchallangeinfoProfileForm').find('#category_id').html(data);
+            }
+
+        });
+    });
+
+    $('body').on('change', '#decision_type_id', function () {
+        jQuery(".category").show();
+        $.ajax({
+            url: '<?php echo $this->webroot ?>challengers/decision_category/',
+            data: {
+                id: this.value
+            },
+            type: 'get',
+            success: function (data) {
+                $('#UserchallangeinfoProfileForm').find('#category_id').html(data);
+                $('#category_id').html(data);
+            }
+
+        });
+    });
+
+    $('body').on('click', '#submitAdvice', function (e) {
+
+        var decision_data = $("#decision_type_id option:selected").text();
+        var decision_type_id = $("#decision_type_id").val();
+        e.preventDefault();
+        var network_type;
+        var datas = $('#UserchallangeinfoProfileForm').serialize();
+        if ($("input[type='radio'].radioBtnClass").is(':checked')) {
+            network_type = $("input[type='radio'].radioBtnClass:checked").val();
+        }
+        var share_type = 'advice';
+
+        var addintional = 'network_type=' + network_type;
+        datas = datas + '&' + addintional + '&data_share_type=' + share_type;
+
+        $.ajax({
+            url: "<?php echo Router::url(array('controller' => 'Advices', 'action' => 'add_advice')) ?>",
+            data: datas,
+            type: 'POST',
+            success: function (data) {
+                if (data.result == "error") {
+                    clearAll();
+
+                    if (data.error_msg.advice_title !== undefined && data.error_msg.advice_title[0] != '') {
+                        $("#advice_title").after('<div class="error-message">' + data.error_msg.advice_title[0] + '</div>');
+                    }
+                    if (data.error_msg.category_id !== undefined && data.error_msg.category_id[0] != '') {
+                        $("#category_id").after('<div class="error-message">' + data.error_msg.category_id[0] + '</span>');
+                    }
+                    if (data.error_msg.decision_type_id !== undefined && data.error_msg.decision_type_id[0] != '') {
+                        $("#decision_type_id").after('<div class="error-message">' + data.error_msg.decision_type_id[0] + '</div>');
+                    }
+                    if (data.error_msg.advice_decision_date !== undefined && data.error_msg.advice_decision_date[0] != '') {
+                        $("#datepicker-advice").after('<div class="error-message">' + data.error_msg.advice_decision_date[0] + '</div>');
+                    }
+                    if (data.error_msg.executive_summary !== undefined && data.error_msg.executive_summary[0] != '') {
+                        $("#cke_executive_summary").after('<div class="error-message">' + data.error_msg.executive_summary[0] + '</div>');
+                    }
+                    $('.modal-body').scrollTop(0);
+
+                } else {
+                    $('ul.tabs li').removeClass('active');
+                    $('#' + data.decision_data.name + '-tab').closest('li').addClass('active');
+                    clearAll();
+                    jQuery('.row-wrap').remove();
+
+                    $('.uploading-data').hide();
+                    $("#user_id_data option[value='']").attr("selected", "");
+                    $("#user_id_data option[value='<?php echo $this->Session->read('context_role_user_id'); ?>']").attr("selected", "selected");
+
+                    $("#UserchallangeinfoProfileForm").get(0).reset();
+
+                    $('.uploading-data').hide();
+                    $('.executive-editor').val('');
+                    $('.challenge-editor').val('');
+                    $('.keypoint-editor').val('');
+
+                    $("#new-advice").modal('hide');
+                    $("#thanks-wisdom-add").modal('show');
+
+                    jQuery("#thanks-wisdom-add").data('tabname', data.decision_data.name);
+                    jQuery("#thanks-wisdom-add").data('tabid', data.decision_data.id);
+                }
+            }
+        });
+    });
+    function clearAll() {
+        $("#advice_title").nextAll().remove();
+        $("#category_id").nextAll().remove();
+        $("#decision_type_id").nextAll().remove();
+        $("#datepicker-advice").nextAll().remove();
+        $("#cke_executive_summary").nextAll().remove();
+    }
+
+
+</script>

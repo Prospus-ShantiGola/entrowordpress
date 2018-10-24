@@ -1,0 +1,20 @@
+=============================================================
+
+Setup Admin
+
+=============================================================
+
+To access the Setup Admin area, simply add "/setup" to your PHP Live! URL.
+
+For example:
+
+if you have installed the system at www.your-website.com/phplive
+
+the Setup Admin login will always be www.your-website.com/phplive/setup
+
+For situations where you have forgotten the Setup Admin login or password, take alook at the
+file "reset.php" that is located in the parent directory phplive/ for more information.
+
+Additionally, documentation is available for other various methods of password reset.
+http://www.phplivesupport.com/r.php?r=spass
+

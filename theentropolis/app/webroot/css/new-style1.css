@@ -1,0 +1,223 @@
+.form-control {
+  font-family: "GothamNarrow-Light";
+  font-size: 15px;
+}
+
+#sage-advice .date {
+  float: right;
+  font-size: 17px !important;
+  font-style: normal;
+}
+
+
+div#thanks-msg div.modal-dialog{
+	width: 61%;
+}
+div#thanks-rating div.modal-dialog{
+	width: 61%;
+}
+div#share-advice div.modal-dialog{
+	width: 61%;
+}
+div#thanks-invitation div.modal-dialog{
+	width: 61%;
+}
+div#thanks-invitation div.modal-dialog p{
+	color: #000 !important;
+}
+div#thanks-message div.modal-dialog{
+	width: 61%;
+}
+div#thanks-message div.modal-dialog p{
+	color: #000 !important;
+}
+.modal-body {
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+
+#seeker-hindsight .date {
+  float: right;
+  font-size: 17px !important;
+  font-style: normal;
+}
+
+#seeker-hindsight .modal-content {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.9);
+}
+.page-loading > img {
+  left: 50%;
+  position: relative;
+  top: 40%;
+  width: 45px;
+}
+#elumanati-wisdom .modal-header {
+    background-color: transparent;
+    border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    padding: 7px 15px;
+    color: #fff;
+}
+#elumanati-wisdom div#add-comment div.modal-dialog div.modal-header {
+  background-color: #01162B;
+  
+}
+#elumanati-wisdom div#add-rating div.modal-dialog  div.modal-header{
+	background-color: #01162B;
+	 
+}
+
+
+#elumanati-wisdom .btn-black {
+    background-color: #01162B;
+}
+
+#elumanati-wisdom .add-comment p {
+    color: #01162B;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family:'gotham-book';
+}
+#elumanati-wisdom .date {
+  /*color: #aaa !important;*/
+  float: right;
+  font-size: 12px !important;
+  font-style: italic;
+}
+#elumanati-wisdom .add-comment ul {
+  list-style: none outside none;
+  margin-bottom: 5px;
+}
+#elumanati-wisdom .modal-body .form-group {
+  width: 100%;
+}
+#elumanati-wisdom .add-comment-form-bottom {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+#elumanati-wisdom .add-comment-form-bottom strong {
+  color: #01162B;
+}
+#elumanati-wisdom .modal-footer {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 15px;
+  padding: 19px 20px 20px;
+  /*text-align: right;*/
+}
+#elumanati-wisdom .close {
+  color: #fff !important;
+  opacity: 0.8;
+}
+#elumanati-wisdom .form-control:focus {
+    border-color: #01162B;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+#elumanati-wisdom .rating-label {
+  color: #01162B;
+}
+
+
+
+
+
+
+
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn label.custom-radio {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 15px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn label.custom-radio:before  {
+  bottom: 1px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  left: 0;
+  margin-right: 10px;
+  position: absolute;
+  width: 16px;
+  
+}
+
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn input[type=radio],
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn input[type=checkbox] {
+  display: none;
+}
+
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn .radio label:before {
+  border-radius: 8px;
+}
+
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn input[type="radio"]:checked + label:before {
+  border: 1px solid;
+  color: #01162B;
+  content: "•";
+  font-size: 1.9em;
+  line-height: 45.5%;
+  text-align: center;
+  line-height:15px;
+  border-radius:50%;
+}
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn input[type="radio"]:checked + label:before {
+  border: 1px solid;
+  color: #01162B;
+  content: "•";
+  font-size: 1.9em;
+  line-height:14px;
+  border-radius:50%;
+  text-align: center;
+}
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn label.custom-radio:before {
+  border: 1px solid #AEAEAE;
+  bottom: 1px;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  left: 0;
+  margin-right: 10px;
+  position: absolute;
+  width: 16px;
+}
+div#elumanati-wisdom div#add-rating div.add-comment div.form-group div.radio-btn label:before {
+    border-radius: 8px;
+}
+
+
+div#elumanati-wisdom div#thanks-msg div.modal-dialog{
+	width: 61%;
+}
+#elumanati-wisdom  div#thanks-msg div.modal-dialog  div.modal-header{
+	background-color: #01162B;
+	 
+}
+#elumanati-wisdom  div#thanks-rating div.modal-dialog  div.modal-header{
+	background-color: #01162B;
+	 
+}
+#elumanati-wisdom .date{
+	  float: right;
+  font-size: 17px !important;
+  font-style: normal;
+}
+
+.form-control::-moz-placeholder {
+  color: rgb(51,51,51);
+}
+.form-control:-ms-input-placeholder {
+  color: rgb(51,51,51);
+}
+.form-control::-webkit-input-placeholder {
+  color: rgb(51,51,51);
+}
+

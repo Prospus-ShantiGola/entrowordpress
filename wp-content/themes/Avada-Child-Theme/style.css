@@ -1,0 +1,45 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.0.0
+Text Domain:  Avada
+*/
+.fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none.hundred-percent-fullwidth.fusion-nonzero-padding.no-padding {
+  padding: 0 !important;
+}
+.DINNextLTPro-HeavyItalic { 
+	font-family: DINNextLTPro-HeavyItalic !important;
+}
+.ms-form input[type="password"] {
+    border: 1px solid #d2d2d2;
+    font-size: 13px;
+    color: #747474;
+    padding: 8px 15px;
+    margin-right: 1%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.ms-form.ms-no-labels p {
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+.ms-form .login-submit input[type="submit"] {
+    color: #fff !important;
+    background: #00b8ec;
+    border: 1px solid #00b8ec;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.ms-form .login-remember label[for="rememberme"] {
+    float: left;
+}
+.ms-form .login-remember {
+    max-width: 130px !important;
+}
+.ms-membership-form-wrapper > a {
+    display: none;
+}

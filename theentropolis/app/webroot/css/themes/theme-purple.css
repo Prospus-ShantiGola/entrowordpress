@@ -1,0 +1,85 @@
+
+/*Main side Wrapper*/
+.sidebar-wrapper{
+	 background: #414753;
+}
+
+/* End */
+
+/*form style*/
+.form-style {
+    background: #f1f2f7;
+}
+/*End*/
+
+/*All Filled buttons*/
+.filled-btn {
+    background: #0bb6ea;
+}
+
+/* All filled hover */
+.filled-btn:hover, .filled-btn:focus, .filled-btn:active{
+	background: transparent;
+    border: 0.14rem #0bb6ea solid;
+    color: #0bb6ea;
+}
+
+/*End*/
+
+/* Line Buttons*/
+.line-btn {
+    border: 0.12rem #0bb6ea solid;
+    color: #0bb6ea;
+}
+
+/* All line hover */
+.line-btn:hover, .line-btn:focus, .line-btn:active{
+	background: #0bb6ea;
+    border: 0.14rem #0bb6ea solid;
+    color: #fff;
+}
+/*end*/
+
+/*Navigation sidebar*/
+.navigation-sidebar .nav  li  a {
+    color: #fff;
+}
+.navigation-sidebar .nav li a:hover, 
+.navigation-sidebar .nav li a:focus, 
+.navigation-sidebar .nav li a:active {
+    background: #555b67;
+    border-color: #0bb6ea;
+}
+.navigation-sidebar .nav  li  a.active{
+	 background: #555b67;
+    border-color: #0bb6ea;
+}
+
+/*End*/
+
+.page-heading-strip {
+    background: #414753;
+}
+
+
+.tab-heading {
+	background: #bec7cb;
+	color: #fff;
+}
+
+/*counter color*/
+.flex-col > span{
+
+     color: #0bb6ea;
+}
+
+/*Modal popup*/
+.modal-header {
+    background-color: #414753;
+}
+.modal-btn {
+    background: #414753;
+}
+.modal-btn:hover {
+    background: #414753;
+}

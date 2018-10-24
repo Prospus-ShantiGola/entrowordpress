@@ -1,0 +1,10 @@
+===========================================
+
+PHP LIVE! Support Change Log
+
+Please visit the Help Desk "Version History" category to view the
+version list and the ChangeLog:
+
+https://www.phplivesupport.com/help_desk.php?catid=10
+
+===========================================

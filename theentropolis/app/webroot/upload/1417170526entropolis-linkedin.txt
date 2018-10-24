@@ -1,0 +1,24 @@
+
+    Company:
+    Entropolis
+
+    Application Name:
+    Entropolis
+
+    API Key:
+    752cavwd1rrwpy
+
+    Secret Key:
+    7nod5tritG7wIeu5
+
+    OAuth User Token:
+    4f5bb580-eb98-4e2a-9581-7629994f926a
+
+    OAuth User Secret:
+    75b06001-5b6a-4a09-a4a8-b5a8f492bf73
+
+
+
+user :  afroj.alam.prospus@gmail.com
+pass :  Prospus1 
+

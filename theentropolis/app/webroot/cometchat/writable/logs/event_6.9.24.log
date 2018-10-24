@@ -1,0 +1,87 @@
+
+ Jan 3 11:56:57 : {"apikey":"09e93f79af2f91f3ce907c8bd4d2a427"}
+ Jan 4 04:28:04 : {"LATEST_VERSION":"","api_response":""}
+ Jan 5 11:58:12 : {"LATEST_VERSION":"","api_response":""}
+ Jan 8 04:19:57 : {"LATEST_VERSION":"","api_response":""}
+ Jan 8 04:58:07 : {"LATEST_VERSION":"6.9.24"}
+ Jan 8 05:42:57 : {"LATEST_VERSION":"","api_response":""}
+ Jan 9 07:27:29 : {"LATEST_VERSION":"","api_response":""}
+ Jan 9 07:38:00 : {"LATEST_VERSION":"","api_response":""}
+ Jan 9 07:40:31 : {"licensekey":"NGO8J-4CLYR-3KJCL-X6XLB-UUSY3","api_response":""}
+ Jan 9 07:46:39 : {"DEV_MODE":"1","ERROR_LOGGING":"1","CROSS_DOMAIN":"0","AVOIDCALLBACK":"0","GZIP_ENABLED":"1","CC_SITE_URL":"","firstguestID":"10000000","CS_RELAY_PORT":"3478","CS_URL_PATH":"cometservice.ashx","USE_CS_LEGACY":"0"}
+ Jan 9 07:51:35 : {"DEV_MODE":"0","ERROR_LOGGING":"0","CROSS_DOMAIN":"0","AVOIDCALLBACK":"0","GZIP_ENABLED":"0","CC_SITE_URL":"","firstguestID":"10000000","CS_RELAY_PORT":"3478","CS_URL_PATH":"cometservice.ashx","USE_CS_LEGACY":"0"}
+ Jan 9 07:52:02 : {"DEV_MODE":"0","ERROR_LOGGING":"0","CROSS_DOMAIN":"0","AVOIDCALLBACK":"0","GZIP_ENABLED":"1","CC_SITE_URL":"","firstguestID":"10000000","CS_RELAY_PORT":"3478","CS_URL_PATH":"cometservice.ashx","USE_CS_LEGACY":"0"}
+ Jan 9 10:31:21 : {"LATEST_VERSION":"6.9.24"}
+ Jan 9 10:31:39 : {"LATEST_VERSION":"6.9.24"}
+ Jan 9 10:42:47 : {"LATEST_VERSION":"6.9.25","api_response":""}
+ Jan 10 04:14:37 : {"LATEST_VERSION":"6.9.25","api_response":""}
+ Jan 10 06:04:30 : {"LATEST_VERSION":"6.9.25","api_response":""}
+ Jan 10 06:15:57 : {"LATEST_VERSION":"6.9.25","api_response":""}
+ Jan 10 07:22:41 : {"LATEST_VERSION":"6.9.25","api_response":""}
+ Jan 10 07:26:14 : {"LATEST_VERSION":"6.9.25","api_response":""}
+ Jan 10 10:16:35 : {"hideBar":"0","autoPopupChatbox":"1","messageBeep":"1","beepOnAllMessages":"1","notificationTime":"5000","announcementTime":"15000","armyTime":"0","startOffline":"1","desktopNotifications":"1","windowTitleNotify":"1","floodControl":"0","windowFavicon":"0","blockpluginmode":"0","lastseen":"0","gatrackerid":""}
+ Jan 10 10:18:23 : {"USE_COMET":"1","KEY_A":"","KEY_B":"","KEY_C":"04960a222c14c093db6230ad115c1603","IS_TYPING":"0","MESSAGE_RECEIPT":"0","CS_MESSAGE_SYNC":"0","TRANSPORT":"cometserviceselfhosted","CS_DOMAIN_NAME":"trepicity.com","CS_HTTP_PORT":"80","CS_HTTPS_PORT":"443"}
+ Jan 10 11:24:22 : {"color":"color1"}
+ Jan 10 11:24:26 : {"color":"color91515583458"}
+ Jan 10 11:27:47 : {"color":"color91515583458"}
+ Jan 10 11:27:53 : {"color":"color91515583662"}
+ Jan 15 09:12:03 : {"LATEST_VERSION":"6.9.26","api_response":""}
+ Jan 15 12:56:10 : {"LATEST_VERSION":"6.9.26","api_response":""}
+ Jan 15 12:56:30 : {"USE_COMET":"1","KEY_A":"","KEY_B":"","KEY_C":"04960a222c14c093db6230ad115c1603","IS_TYPING":"0","MESSAGE_RECEIPT":"0","CS_MESSAGE_SYNC":"0","TRANSPORT":"cometservice","CS_DOMAIN_NAME":"trepicity.com","CS_HTTP_PORT":"80","CS_HTTPS_PORT":"443"}
+ Jan 15 12:58:51 : {"USE_COMET":"1","KEY_A":"","KEY_B":"","KEY_C":"04960a222c14c093db6230ad115c1603","IS_TYPING":"0","MESSAGE_RECEIPT":"0","CS_MESSAGE_SYNC":"0","TRANSPORT":"cometservice","CS_DOMAIN_NAME":"trepicity.com","CS_HTTP_PORT":"80","CS_HTTPS_PORT":"443"}
+ Jan 15 12:59:03 : {"USE_COMET":"0","KEY_A":"","KEY_B":"","KEY_C":"04960a222c14c093db6230ad115c1603","IS_TYPING":"0","MESSAGE_RECEIPT":"0","CS_MESSAGE_SYNC":"0","TRANSPORT":"cometservice","CS_DOMAIN_NAME":"trepicity.com","CS_HTTP_PORT":"80","CS_HTTPS_PORT":"443"}
+ Jan 16 05:52:14 : {"LATEST_VERSION":"6.9.26","api_response":""}
+ Jan 16 05:59:50 : {"disableContactsTab":"0","hideOffline":"1","displayOfflineNotification":"0","displayBusyNotification":"1","displayOnlineNotification":"1","thumbnailDisplayNumber":"40","searchDisplayNumber":"10"}
+ Jan 16 06:53:54 : {"disableGroupTab":"1","allowUsers":"0","allowGuests":"0","allowDelete":"1","allowAvatar":"1","crguestsMode":"0","showChatroomUsers":"1","messageBeep":"1","newMessageIndicator":"1","showUsername":"0","showGroupsOnlineUsers":"0","chatroomTimeout":"604800","lastMessages":"10"}
+ Jan 17 06:19:28 : {"LATEST_VERSION":"6.9.27","api_response":""}
+ Jan 29 07:08:34 : {"LATEST_VERSION":"6.9.29","api_response":""}
+ Jan 30 09:25:24 : {"LATEST_VERSION":"7.0.0","api_response":""}
+ Jan 31 12:16:27 : {"LATEST_VERSION":"7.0.0","api_response":""}
+ Jan 31 12:23:51 : {"hideBar":"0","autoPopupChatbox":"1","messageBeep":"1","beepOnAllMessages":"1","notificationTime":"5000","announcementTime":"15000","armyTime":"0","startOffline":"0","desktopNotifications":"1","windowTitleNotify":"1","floodControl":"0","windowFavicon":"0","blockpluginmode":"0","lastseen":"0","gatrackerid":""}
+ Jan 31 12:27:36 : {"minHeartbeat":"3000","maxHeartbeat":"12000","typingTimeout":"10000","REFRESH_BUDDYLIST":"3000","ONLINE_TIMEOUT":"300","idleTimeout":"3000"}
+ Jan 31 13:11:56 : {"trayicon":{"announcements":["announcements","Announcements","modules\/announcements\/index.php","_popup","280","310","","1",""],"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Jan 31 13:12:06 : {"trayicon":{"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Jan 31 13:17:13 : {"trayicon":{"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""]}}
+ Jan 31 13:17:18 : {"trayicon":{"home":["home","Home","\/","","","","","",""]}}
+ Jan 31 13:17:23 : {"trayicon":[]}
+ Jan 31 13:18:05 : {"usebots":0}
+ Jan 31 15:18:28 : {"latest_update_token":"291e2ac1e478cb13b978cf0d6688d000"}
+ Jan 31 15:18:28 : {"LATEST_VERSION":"7.0.0"}
+ Feb 1 06:30:04 : {"LATEST_VERSION":"7.0.0","api_response":""}
+ Feb 1 09:26:41 : {"LATEST_VERSION":"7.0.0","api_response":""}
+ Feb 1 12:03:33 : {"color":"color1"}
+ Feb 1 12:03:38 : {"color":"color91517486607"}
+ Feb 1 12:04:18 : {"usebots":0}
+ Feb 1 12:04:26 : {"apikey":"d899ac8a79a08dcc0974d61caea46ba1"}
+ Feb 1 12:04:57 : {"trayicon":{"games":["games","Single Player Games","modules\/games\/index.php","_popup","465","300","","1",""],"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Feb 1 12:04:59 : {"trayicon":{"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Feb 1 12:05:04 : {"trayicon":{"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Feb 1 12:05:07 : {"trayicon":{"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Feb 1 12:05:12 : {"trayicon":{"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Feb 1 12:05:18 : {"trayicon":[]}
+ Feb 1 12:07:49 : {"disableGroupTab":"1","allowUsers":"0","allowGuests":"1","allowDelete":"1","allowAvatar":"1","crguestsMode":"1","showChatroomUsers":"1","messageBeep":"1","newMessageIndicator":"1","showUsername":"0","showGroupsOnlineUsers":"0","chatroomTimeout":"604800","lastMessages":"10"}
+ Feb 1 12:09:08 : {"ccactiveauth":["Facebook","Google","Twitter"],"USE_CCAUTH":"0","guestsMode":"0","guestnamePrefix":"","guestsList":"3","guestsUsersList":"3","firebaseAPIKey":"","firebaseAuthDomain":"","firebaseProjectID":""}
+ Feb 16 12:39:50 : {"LATEST_VERSION":"7.0.3","api_response":""}
+ Feb 16 12:40:32 : {"color":"color1"}
+ Feb 16 12:40:35 : {"color":"color91518784828"}
+ Feb 23 06:17:06 : {"LATEST_VERSION":"7.0.5","api_response":""}
+ Feb 23 06:17:25 : {"apikey":"e17a73877843e4ec96d3143e73ef040e"}
+ Feb 23 06:37:55 : {"bannedWords":["user"],"bannedUserIDs":[],"bannedUserIPs":[],"bannedMessage":"Sorry, you have been banned from using this service. Your messages will not be delivered."}
+ Feb 23 06:43:30 : {"bannedWords":[],"bannedUserIDs":[],"bannedUserIPs":[],"bannedMessage":"Sorry, you have been banned from using this service. Your messages will not be delivered."}
+ Feb 23 06:46:23 : {"LATEST_VERSION":"7.0.5","api_response":""}
+ Mar 8 09:51:29 : {"LATEST_VERSION":"7.0.6","api_response":""}
+ Mar 8 09:52:32 : {"disableContactsTab":"0","hideOffline":"1","displayOfflineNotification":"1","displayBusyNotification":"1","displayOnlineNotification":"1","thumbnailDisplayNumber":"40","searchDisplayNumber":"10"}
+ Mar 8 09:52:36 : {"disableGroupTab":"0","allowUsers":"1","allowGuests":"1","allowDelete":"1","allowAvatar":"1","crguestsMode":"1","showChatroomUsers":"1","messageBeep":"1","newMessageIndicator":"1","showUsername":"0","showGroupsOnlineUsers":"0","chatroomTimeout":"604800","lastMessages":"10"}
+ Mar 8 09:59:06 : {"disableGroupTab":"1","allowUsers":"1","allowGuests":"1","allowDelete":"1","allowAvatar":"1","crguestsMode":"1","showChatroomUsers":"1","messageBeep":"1","newMessageIndicator":"1","showUsername":"0","showGroupsOnlineUsers":"0","chatroomTimeout":"604800","lastMessages":"10"}
+ Mar 8 09:59:41 : {"disableGroupTab":"1","allowUsers":"0","allowGuests":"0","allowDelete":"1","allowAvatar":"1","crguestsMode":"1","showChatroomUsers":"1","messageBeep":"1","newMessageIndicator":"1","showUsername":"0","showGroupsOnlineUsers":"0","chatroomTimeout":"604800","lastMessages":"10"}
+ Mar 20 04:03:29 : {"LATEST_VERSION":"7.0.8","api_response":""}
+ Mar 21 10:21:35 : {"LATEST_VERSION":"7.0.8","api_response":""}
+ Apr 5 11:55:47 : {"LATEST_VERSION":"7.0.10","api_response":""}
+ Apr 5 11:56:36 : {"trayicon":{"announcements":["announcements","Announcements","modules\/announcements\/index.php","_popup","280","310","","1",""],"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""],"share":["share","Share This Page","modules\/share\/index.php","_popup","350","50","","1",""]}}
+ Apr 5 11:56:49 : {"trayicon":{"announcements":["announcements","Announcements","modules\/announcements\/index.php","_popup","280","310","","1",""],"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""]}}
+ Apr 5 11:56:54 : {"trayicon":{"home":["home","Home","\/","","","","","",""],"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""]}}
+ Apr 5 11:57:25 : {"trayicon":{"scrolltotop":["scrolltotop","Scroll To Top","javascript:jqcc.cometchat.scrollToTop();","","","","","",""]}}
+ Apr 5 11:57:35 : {"usebots":0}
+ Apr 9 09:45:06 : {"LATEST_VERSION":"7.0.10","api_response":""}
+ Oct 12 04:48:06 : {"LATEST_VERSION":"7.1.2","api_response":""}
+ Oct 14 23:53:33 : {"LATEST_VERSION":"7.1.2","api_response":""}

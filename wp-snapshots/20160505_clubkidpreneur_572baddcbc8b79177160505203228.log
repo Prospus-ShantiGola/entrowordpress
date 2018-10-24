@@ -1,0 +1,67 @@
+********************************************************************************
+PACKAGE-LOG: 2016-05-05 20:32:55
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.6
+WORDPRESS:	4.5.1
+PHP INFO:	5.3.29 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (512M default) 
+MEMORY STACK: 65MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:20 | filtered:0 | create:20 
+FILTERED: [] 
+SQL CREATED: 20160505_clubkidpreneur_572baddcbc8b79177160505203228_database.sql 
+SQL FILE SIZE: 20.27MB (21254792) 
+SQL FILE TIME: 2016-05-05 20:33:00 
+SQL RUNTIME: 5.67 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /mnt/data/vhosts/casite-705272.cloudaccess.net/httpdocs 
+ARCHIVE FILE: 20160505_clubkidpreneur_572baddcbc8b79177160505203228_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	273.94MB 
+STATS:	Dirs 507 | Files 5,720 
+SQL ADDED: 20160505_clubkidpreneur_572baddcbc8b79177160505203228_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6227
+    [filename] => /mnt/data/vhosts/casite-705272.cloudaccess.net/httpdocs/wp-snapshots/tmp/20160505_clubkidpreneur_572baddcbc8b79177160505203228_archive.zip
+    [comment] => 
+)
+ 
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	ZipArchive close failure.
+DETAILS:
+	This hosted server may have a disk quota limit.
+Check to make sure this archive file can be stored.
+TRACE:
+	 1. package.archive.zip.php : Error (128)
+	 2. package.archive.php : Create (111)
+	 3. package.php : Build (224)
+	 4. actions.php : Build (56)
+	 5.  : duplicator_package_build ()
+	 6. plugin.php : call_user_func_array (525)
+	 7. admin-ajax.php : do_action (89)
+==================================================================================
+

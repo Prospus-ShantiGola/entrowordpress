@@ -1,0 +1,99 @@
+@media screen and (max-width: 1800px) {
+	
+	html{
+		font-size: 0.81rem	;
+	}
+
+}	
+
+@media screen and (max-width: 1280px) {
+
+	/* Pls don't modify*/
+	html{
+		font-size: 0.81rem	;
+	}
+	.toggle-menu-fly{
+		display: block;
+	}
+	#kid-menu.sidebar-wrapper.open{
+		
+		width: 17.50rem;
+	}
+	#kid-menu.sidebar-wrapper.open .close-toggle-fly,
+	#kid-menu.sidebar-wrapper.open .user-profile-wrap,
+	#kid-menu.sidebar-wrapper.open .footer-sidebar{	display: block;   }	
+	
+	#kid-menu.sidebar-wrapper{
+		position: fixed;	   
+	    box-shadow: 0 0 10px #000;
+	    left: 0px;
+	    transition: all 0.5s ease;
+	    font-size: 13px;
+	    z-index: 10;
+	    -webkit-transition: all 0.5s ease;
+	}
+	#kid-menu .sidebar-bar .close-toggle-fly,
+	#kid-menu .sidebar-bar .user-profile-wrap,
+	#kid-menu .sidebar-bar .footer-sidebar{	display: none;   }	
+	#kid-menu + .main-wrapper{
+		margin-left: 50px;
+	}
+	#kid-menu{
+	    width: 50px;
+	    overflow: hidden;    
+	}
+	#kid-menu .sidebar-bar{
+	    width: 17.50rem;
+	}
+	.navigation-sidebar .nav  li  a{
+	    padding-left: 10px;
+	}
+	.navigation-sidebar .nav  li  a .icons{
+	    margin-right: 15PX;
+	}
+	.main-wrapper {	
+	    width: 100%;
+	}
+
+
+	.middle-flex-item-first {
+    width: calc(100% - 15.62rem);
+	}
+	.middle-flex-item {
+	    width:  15.62rem;
+	    display: block;
+	}
+
+	/*.ipad-flex-container{
+		display: flex;
+		background: #bec7cb;
+	}
+	.toggle-menu-fly {
+	    display: flex;
+	    padding: 0rem 1.25rem;
+	    align-items: center;
+	}
+	.toggle-menu-fly i{
+		font-size: 2rem;
+	}
+	.main-wrapper {
+		padding:0; 
+	    width: 100%;
+	}
+	.admin-setting-controller {
+	    order: 2;
+	    flex: 1 auto;
+	    margin-bottom: 0;
+	    align-items: center;
+	    padding-right: 1.25rem;
+	}
+	.page-heading-strip{
+		padding: 0.42rem 1rem;
+	}
+
+
+*/
+
+	/* Pls don't modify End*/
+
+}	

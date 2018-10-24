@@ -1,0 +1,1 @@
+<?php $VALS = Array() ; $VALS['CHAT_SPAM_IPS'] = '' ; $VALS['TRAFFIC_EXCLUDE_IPS'] = '' ; $VALS['OFFLINE'] = '' ; $VALS['op_sounds'] = 'a:1:{i:1;a:2:{i:0;s:7:"default";i:1;s:7:"default";}}' ; ?>

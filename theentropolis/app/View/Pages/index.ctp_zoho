@@ -1,0 +1,403 @@
+
+
+
+<form action='https://crm.zoho.com/crm/Unsubscribe?encoding=UTF-8' method='POST' name='unsubForm' onSubmit='return emailValidate()' >   <input type='hidden' name='xnQsjsdp' value='053cfdf871086276d159a2fca80ac95ebe999e05a3bb2cb132a5b19c02c7a66f'/>  <input type='hidden' name='actionType' value='dW5zdWJzY3JpYmU='/>  <input type='hidden' name='returnURL' value='https://www.zoho.com' /><table width='481' style='border:10px solid #f4f4f4;' cellpadding='0' cellspacing='0'><tr><td style='padding:10px 0px 10px 10px; font-family:Arial, Helvetica, sans-serif; font-size:13px;'><strong>Enter Your Email Address</strong> </td><td style='padding:10px 0px 10px 10px;'><input type='text' name='email' maxlength='120' style='width:190px;border:1px solid #c4d6e2; background-color:#fbfdff; font-family:Arial, Helvetica, sans-serif; font-size:13px;'/></td><td style='padding:10px 10px 10px 0px;'><input type='submit' style='background-color:#7a7e8a; color:#ffffff; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:11px; border:1px solid #616572;' value='Unsubscribe'/></td></tr></table>  <script>function emailValidate(){var email=document.forms['unsubForm']['email'].value;var atpos=email.indexOf('@');var dotpos=email.lastIndexOf('.');if (atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length){alert('Please enter a valid email address.');return false;}}</script></form>
+
+
+<!-- Note :
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm' style='width:600px;margin:auto;'>
+   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+   <form action='https://crm.zoho.com/crm/WebToContactForm'  name=WebToContacts1526579000000862039 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+
+   <!-- Do not remove this code. -->
+  <input type='text' style='display:none;' name='xnQsjsdp' value='21afbb9beb1b2002e6d6a460eb1495b5626168f994583a26d1704c092c00a794'/>
+  <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+  <input type='text' style='display:none;' name='xmIwtLD' value='a4af946fa5b5ee249d5de8071774b4229e94407a9127b98ac0a8eaed93f041db'/>
+  <input type='text' style='display:none;'  name='actionType' value='Q29udGFjdHM='/>
+
+  <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;dev.trepicity.com&#x2f;' /> 
+   <!-- Do not remove this code. -->
+  <input type='text' style='display:none;' id='ldeskuid' name='ldeskuid'></input>
+  <input type='text' style='display:none;' id='LDTuvid' name='LDTuvid'></input>
+   <!-- Do not remove this code. -->
+  <style>
+    tr , td { 
+      padding:6px;
+      border-spacing:0px;
+      border-width:0px;
+      }
+  </style>
+  <table style='width:600px;background-color:white;color:black'>
+
+  <tr><td colspan='2' style='text-align:left;color:black;font-family:Arial;font-size:14px;'><strong>TEST FORM</strong></td></tr>
+
+  <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Last Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='80' name='Last Name' /></td></tr>
+
+  <tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Source</td><td style='width:250px;'>
+    <select style='width:250px;' name='Lead Source'>
+      <option value='-None-'>None</option>
+      <option value='Advertisement'>Advertisement</option>
+      <option value='Chat'>Chat</option>
+      <option value='Cold&#x20;Call'>Cold Call</option>
+      <option value='Employee&#x20;Referral'>Employee Referral</option>
+      <option value='External&#x20;Referral'>External Referral</option>
+      <option value='OnlineStore'>Online Store</option>
+      <option value='Partner'>Partner</option>
+      <option value='Public&#x20;Relations'>Public Relations</option>
+      <option value='Sales&#x20;Mail&#x20;Alias'>Sales Email Alias</option>
+      <option value='Seminar&#x20;Partner'>Seminar Partner</option>
+      <option value='Seminar-Internal'>Internal Seminar</option>
+    <option selected value='TEST&#x20;CONTACT'>TEST CONTACT</option>
+      <option value='Trade&#x20;Show'>Trade Show</option>
+      <option value='Web&#x20;Cases'>Web Cases</option>
+      <option value='Web&#x20;Download'>Web Download</option>
+      <option value='Web&#x20;Mail'>Web Mail</option>
+      <option value='Web&#x20;Research'>Web Research</option>
+    </select></td></tr>
+
+  <tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Email</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Email' /></td></tr>
+
+  <tr><td colspan='2' style='text-align:center; padding-top:15px;'>
+    <input style='font-size:12px;color:#131307' type='submit' value='Submit' />
+    <input type='reset' style='font-size:12px;color:#131307' value='Reset' />
+      </td>
+  </tr>
+   </table>
+  <script>
+    var mndFileds=new Array('Last Name');
+    var fldLangVal=new Array('Last Name');
+    var name='';
+    var email='';
+
+    function checkMandatory() {
+    for(i=0;i<mndFileds.length;i++) {
+      var fieldObj=document.forms['WebToContacts1526579000000862039'][mndFileds[i]];
+      if(fieldObj) {
+      if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+       if(fieldObj.type =='file')
+        { 
+         alert('Please select a file to upload.'); 
+         fieldObj.focus(); 
+         return false;
+        } 
+      alert(fldLangVal[i] +' cannot be empty.'); 
+              fieldObj.focus();
+              return false;
+      }  else if(fieldObj.nodeName=='SELECT') {
+             if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+        alert(fldLangVal[i] +' cannot be none.'); 
+        fieldObj.focus();
+        return false;
+         }
+      } else if(fieldObj.type =='checkbox'){
+       if(fieldObj.checked == false){
+        alert('Please accept  '+fldLangVal[i]);
+        fieldObj.focus();
+        return false;
+         } 
+       } 
+       try {
+           if(fieldObj.name == 'Last Name') {
+        name = fieldObj.value;
+          }
+      } catch (e) {}
+        }
+    }
+    trackVisitor();
+  }
+</script><script type='text/javascript' id='VisitorTracking'>var $zoho= $zoho || {salesiq:{values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}}};var d=document;s=d.createElement('script');s.type='text/javascript';s.defer=true;s.src='https://salesiq.zoho.com/entropolisptyltd/float.ls?embedname=entropolisptyltd';t=d.getElementsByTagName('script')[0];t.parentNode.insertBefore(s,t);function trackVisitor(){try{if($zoho){var LDTuvidObj = document.forms['WebToContacts1526579000000862039']['LDTuvid'];if(LDTuvidObj){LDTuvidObj.value = $zoho.salesiq.visitor.uniqueid();}var firstnameObj = document.forms['WebToContacts1526579000000862039']['First Name'];if(firstnameObj){name = firstnameObj.value +' '+name;}$zoho.salesiq.visitor.name(name);var emailObj = document.forms['WebToContacts1526579000000862039']['Email'];if(emailObj){email = emailObj.value;$zoho.salesiq.visitor.email(email);}}} catch(e){}}</script>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--------------------   ------------>
+<div class="banner banner-pss carousel slide" id="pss-top-carousel" data-ride="carousel" data-interval="false">
+      <div class="slides carousel-inner homeSlides">
+         <div class="item active" align="center">
+            <div class="hpTop">
+               <div class="hpInner1">
+                  <h1 class="H1-white blackA">WELCOME TO THE GLOBAL ONLINE DESTINATION FOR FUTURE ENTREPRENEURS</h1>
+               </div>
+            </div>
+            <div style="clear:both"></div>
+             <?php echo $this->Html->image('entropolis-slider2.png', array('style' => 'width:100%')); ?>
+            
+         </div>
+         <div class="item" align="center">
+            <div class="hpTop">
+               <div class="hpInner2">
+                  <h1 class="H1-white">THE GREATEST ENTREPRENEURIAL<br />ADVENTURE OF ALL TIME</h1>
+                  <div class="dividerline-white" align="center"></div>
+                  <h2 class="H2-white black">Join Curtis, Harvey and their Founder friends on their epic quest for Kidpreneur Island and beyond. Game app coming soon </h2>
+               </div>
+            </div>
+            <div style="clear:both"></div>
+             <?php echo $this->Html->image('entropolis-slider1.png', array('style' => 'width:100%')); ?>
+         </div>
+         <div class="item" align="center">
+            <div class="hpTop">
+               <div class="hpInner">
+                  <h1 class="H1-white">CONNECT, SHARE AND COLLABORATE</h1>
+                  <div class="dividerline-white" align="center"></div>
+                  <h2 class="H2-white black">with other peeps on your entrepreneurial adventure</h2>
+               </div>
+            </div>
+            <div style="clear:both"></div>
+            <?php echo $this->Html->image('entropolis-slider3.png', array('style' => 'width:100%')); ?>
+            
+         </div>
+      </div>
+      <a class="left pss-item-control" href="#pss-top-carousel" data-slide="prev">
+           <?php echo $this->Html->image('arrow-left.png', array('class' => 'slideNAV')); ?>
+        
+      </a>
+      <a class="right rightNav pss-item-control" href="#pss-top-carousel" data-slide="next">
+          <?php echo $this->Html->image('arrow-right.png', array('class' => 'slideNAV')); ?>
+      </a>     
+   </div>
+   <div style="clear:both"></div>
+   <div class="iconstrip">
+      <div class="innerDivs botPad icoCont">
+         <div class="pic5">
+             <?php echo $this->Html->image('main.icon-kidpreneurs.png'); ?>
+           
+         </div>
+         <div class="pic5">
+             <?php echo $this->Html->image('main.icon-schools.png'); ?>
+         </div>
+         <div class="pic5">
+             <?php echo $this->Html->image('main.icon-educators.png'); ?>
+         </div>
+         <div class="pic5">
+             <?php echo $this->Html->image('main.icon-parents.png'); ?>
+         </div>
+         <div class="pic5">
+             <?php echo $this->Html->image('main.icon-peeps.png'); ?>
+         </div>
+         <div style="clear:both"></div>
+      </div>
+   </div>
+   <div style="clear:both"></div>
+   <div class="journeystrip journeybg">
+      <div class="innerDivs botPad">
+         <div class="journey2">
+            <h1 class="H1">Your entrepreneurial adventure starts here</h1>
+            <div class="txtPad">Join Curtis, Harvey and their awesome group of founder friends as they go on their epic Kidpreneur adventure. Along the way, learn how to create your own business in the real world and discover cool stuff to help you become an awesome entrepreneur in the future.</div>
+
+            <div class="journey3">
+               <div class="pic3">
+                  <div class="pHgt">
+                       <?php echo $this->Html->image('icons/icon-think.png'); ?></div>
+                  <div class="ptxt">Learn how to think<br />like an<br />entrepreneur </div>
+               </div>
+               <div class="pic3">
+                  <div class="pHgt">
+                      <?php echo $this->Html->image('icons/icon-kidpreneur-quest.png'); ?>
+                      
+                  </div>
+                  <div class="ptxt">Play the game<br />of business<br />online </div>
+               </div>
+               <div class="pic3">
+                  <div class="pHgt">
+                       <?php echo $this->Html->image('icons/icon-build.png'); ?>
+                    </div>
+                  <div class="ptxt">Build an awesome<br />business in the<br />real-world</div>
+               </div>
+               <div style="clear:both"></div>
+               <div class="pic3">
+                  <div class="pHgt">
+                      <?php echo $this->Html->image('icons/icon-share.png'); ?>
+                  </div>
+                  <div class="ptxt">Share your<br />entrepreneurial<br />adventure</div>
+               </div>
+               <div class="pic3">
+                  <div class="pHgt">
+                      <?php echo $this->Html->image('icons/icon-wisdom.png'); ?>
+                      </div>
+                  <div class="ptxt">Find wisdom<br />and other<br />useful stuff </div>
+               </div>
+               <div class="pic3">
+                  <div class="pHgt">
+                       <?php echo $this->Html->image('icons/icon-skills.png'); ?>
+                     </div>   
+                  <div class="ptxt">Get some really<br />cool skills for the<br />future</div>
+               </div>
+               <div style="clear:both"></div>
+               <span class="smlTxt">To keep you safe and protect your privacy online, Kidpreneurs must be signed up by a responsible adult. Please read our Terms of Use and Privacy Policy for more information. </span>
+               <div class="homestartbuts">
+                  <div class="homebut1"><a class="btn btn-default btnfilled btnblue medWgt disabled" style="margin:0px !important" href="#kidpreneurChallenge" data-toggle="modal"  data-dismiss="modal">START YOUR KIDPRENEUR QUEST</a></div>
+                  <div class="homebut2"><a class="btn btn-default btnblue medWgt disabled" style="margin:0px !important" href="javascript:;">PARENTS FIND OUT MORE</a></div>
+                  <div style="clear:both"></div>
+               </div>
+            </div>
+         </div>
+         <div style="clear:both"></div>
+      </div>
+   </div>
+   <div style="clear:both"></div>
+   <div class="banner">
+      <div class="kidchallenge">
+         <strong>Educating, Empowering and<br />
+         Celebrating the best young<br />
+         entrepreneurial talent on the planet </strong>
+
+         <div style="clear:both"></div>
+      </div>
+       <?php echo $this->Html->image('kidpreneur-challenge.png', array('style' => 'width:100%')); ?>
+   </div>
+   <div style="clear:both"></div>
+   <div class="chalBlock" align="center">
+      <div class="innerDivs botPad">
+         <div class="chal1" style="float:left;width:15%">
+            &nbsp;
+         </div>
+         <div class="chal2" style="float:left;width:34%;text-align:center">
+            <div class="chalHGT" style="padding:0 40px 30px 10px">
+               <strong class="medTxt">The Unicorns</strong> <br /><br />
+               Australia's biggest entrepreneur education program running in primary schools nationally, building entrepreneurial talent, innovation capability and a 21st century skillset in years 4-6.
+            </div>
+            <div style="padding:0 40px 30px 10px">
+               <a class="btn equalw btn-default btnWhtMarfilled btnWhtMar medWgt" href="javascript:;">FIND OUT MORE</a> 
+               <a class="btn btn-default equalw btnmarfilled btnmar medWgt" href="#kidpreneurChallenge" data-toggle="modal" data-dismiss="modal">TAKE THE CHALLENGE</a>
+               
+            </div>
+         </div>
+         <div class="chal3" style="float:left;width:2%">
+            <div style="margin:7px 0 0 0;border: solid 1px #414753;height:230px;width:2px"></div>
+         </div>
+         <div class="chal4" style="float:left;width:34%;text-align:center">
+            <div class="chalHGT" style="padding:0 40px 30px 40px;">
+               <strong class="medTxt">The Ninjas</strong><br /><br />
+               International pitch video competition open to any young aged entrepreneur up to 13. Competition to showcase the best Kidpreneur talent on the planet!
+            </div>
+            <div style="padding:0 40px 30px 40px;">
+               <a id="ninjas" class="btn equalw btn-default btnWhtBlkfilled btnWhtBlk medWgt" href="javascript:;">FIND OUT MORE</a>
+               <a class="btn btn-default equalw btnblkfilled btnblk medWgt" href="#ParentskidpreneurChallenge" data-toggle="modal" data-dismiss="modal">TAKE THE CHALLENGE</a>
+            </div>
+         </div>
+         <div class="chal5" style="float:left;width:15%">
+            &nbsp;
+         </div>
+         <div style="clear:both"></div>
+      </div>
+   </div>
+   <div style="clear:both"></div>
+   <div class="supportBlock" align="center">
+      <div class="innerDivs botPad">
+         <h1 class="H1">Building Capacity in the Future Entrepreneurs Support Crew</h1>
+         <div align="center">
+             <?php echo $this->Html->image('icons/parent.png', array('style' => 'margin:15px 50px 0 0;')); ?>
+             <?php echo $this->Html->image('icons/educator.png'); ?>
+         </div>
+         <div class="supportTXT">
+            Confident and engaged educators, parents and carers, with a strong understanding of entrepreneurship are critical to the success of our programs developing the entrepreneurs of the future.<br /><br />
+            We offer our future entrepreneur support crew.
+         </div>
+      </div>
+   </div>
+   <div style="clear:both"></div>
+   <div class="banner">
+      <div class="childLeft" style="float:left;width:50%;position: relative;">
+         <div class="childSupportDiv">
+            <div class="childSupport">
+               <a class="btn btn-default btnWhtfilled btnWht medWgt" href="#ParentskidpreneurChallenge" data-toggle="modal" data-dismiss="modal">I AM A PARENT</a><br /><br />
+               Help to embed effective entrepreneurship strategies in school and at home.<br />
+               How to guide and support the kidpreneurs on their entrepreneurial journey.
+            </div>
+         </div>
+          <?php echo $this->Html->image('banner.image-parent.png', array('style' => 'width:100%;')); ?>
+      </div>
+      <div class="childRight" style="float:left;width:50%;position: relative;">
+         <div class="childSupportDiv">
+            <div class="childSupport">
+               <a class="btn btn-default btnWhtfilled btnWht medWgt" href="#kidpreneurChallenge" data-toggle="modal"  data-dismiss="modal">I AM AN EDUCATOR</a><br /><br />
+               Specific training and development programs to build capability and confidence <br />
+               Access to our entrepreneurial brains trust and knowledge bank to fill your own knowledge gaps
+            </div>
+         </div>
+           <?php echo $this->Html->image('banner.image-educator.png', array('style' => 'width:100%;')); ?>
+      </div>
+      
+   </div>
+   <div style="clear:both"></div>
+   <div class="adstrip">
+      <div class="innerDivs botPad pic5Cont">
+         <div class="pic5h">
+             <?php echo $this->Html->image('logos/investible.png'); ?>
+            
+         </div>
+         <div class="pic5h">
+             <?php echo $this->Html->image('logos/inamo.png'); ?>
+         </div>
+         <div class="pic5h">
+              <?php echo $this->Html->image('logos/ck-logo.png'); ?>
+         </div>
+         <div class="pic5h">
+             <?php echo $this->Html->image('logos/moose.png'); ?>
+         </div>
+         <div class="pic5h">
+             <?php echo $this->Html->image('logos/inventium.png'); ?>
+         </div>
+         <div style="clear:both"></div>
+      </div>
+   </div>
+
+
+   <!-- Video popup onLoad -->
+
+<div class="modal fade front-blog-popup statmentModal in" id="video-box" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icons close-icon"></i></button>
+        <h4 class="modal-title" id="myModalLabel">Welcome to Entropolis</h4>
+      </div>
+      <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+                 <iframe id="video" width="700" height="398" type="text/html" frameborder="0" allowfullscreen="" src="http://www.youtube.com/embed/IaszbI9txPM?rel=0&amp;amp;enablejsapi=1&amp;amp;autoplay=1"></iframe>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Video popup onLoad end-->
+
+<script type="text/javascript">
+$(document).ready(function(){
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#video").attr('src');
+    
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#video-box").on('hide.bs.modal', function(){
+        $("#video").attr('src', '');
+    });
+    
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#video-box").on('show.bs.modal', function(){
+        $("#video").attr('src', url);
+    });
+});
+   
+   // using on home page
+   
+//using on home page 
+ $(window).on('load',function(){
+        $('#video-box').modal('show');
+    });
+
+</script>

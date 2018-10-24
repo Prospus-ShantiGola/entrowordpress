@@ -1,0 +1,1033 @@
+<!--- Start Hindsight Detail Modal -->
+<div aria-hidden="false" aria-labelledby="myModalLabel"  role="dialog" tabindex="-1" id="wisdomarticle-popup" class="modal fade right wisdomarticle-popup">
+    <div class="modal-dialog advice-slide-wrap">
+        <div class="modal-content">
+            <div class="modal-header top-section">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <form role="form">
+                            <div class="form-group search-bar">
+                                <!--  <input type="email" placeholder="Search" class="form-control">
+                                    <button class="btn btn-gray" type="submit">Go</button> -->
+                                <button data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="bs-example advice-tabs bg-black">
+                    <ul class="nav nav-tabs">
+                        <li  class="active advice-data"><a href="#wisdom-advice" data-toggle="tab" class="get-data-wisdom-modal set-data-wisdom" data-id="">SHARED WISDOM</a></li>
+                        <li  class="endrose-data " > <a href="#wisdom-endorsements" data-toggle="tab" class = "get-wisdom-endorsement">ENDORSEMENTS</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade active" id="wisdom-advice">                            
+                        </div>
+                        <div class="tab-pane fade wisdom-endorsement-data" id="wisdom-endorsements" >
+                            <div class="endorsment-comment seeker-bg">
+                                  <h3>Leave an endorsement for Ursula Hogben</h3>
+                                  <form action="">
+                                    <textarea class="form-control" placeholder="Ex. Ursula Hogben is an amazing entrepreneur that i have come across" required="required"></textarea>
+                                    <div class="align-right">
+                                      <button type="button" class="btn btn-black">Send</button>
+                                      <button type="button" class="btn btn-black">Cancel</button>
+                                    </div>
+                                    
+                                  </form>
+                            </div>
+                            <div class="endorsment-wrap">
+                                  <div class="list-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/comment-icons.png"></div>
+                                    <div class="list-info">
+                                      <h6>Lessons From ANA Masters of Marketing Confab</h6>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap suggestion-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/endorsment.png"></div>
+                                    <div class="list-info">
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap">
+                                    <div class="list-icon"><i class="fa fa-star-o"></i></div>
+                                    <div class="list-info">
+                                      <h6>Lessons From ANA Masters of Marketing Confab</h6>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/comment-icons.png"></div>
+                                    <div class="list-info">
+                                      <h6>Lessons From ANA Masters of Marketing Confab</h6>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/comment-icons.png"></div>
+                                    <div class="list-info">
+                                      <h6>Lessons From ANA Masters of Marketing Confab</h6>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/comment-icons.png"></div>
+                                    <div class="list-info">
+                                      <h6>Lessons From ANA Masters of Marketing Confab</h6>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/comment-icons.png"></div>
+                                    <div class="list-info">
+                                      <h6>Lessons From ANA Masters of Marketing Confab</h6>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                                  <div class="list-wrap suggestion-wrap">
+                                    <div class="list-icon"><img alt="" src="/entropolis/img/endorsment.png"></div>
+                                    <div class="list-info">
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<a href="#">Show More</a></p>
+                                      <div class="suggested_by"><b>Gihan Perrera,</b><span>Consultant</span></div>
+                                    </div>
+                                    <div class="posted-date">12 Feb 2015</div>
+                                  </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade seeker-pop" id="thanks-msg-hindsight" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" aria-hidden="true" onclick = "javascript:jQuery('#thanks-msg-hindsight').modal('hide');">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">THANKS FOR YOUR COMMENT!</h4>
+            </div>
+            <div class="modal-body">
+                <p> Your feedback is really valuable to us as it helps us properly curate our archive and deliver amazing wisdom to help you and business owners around the world make better, faster HINDSIGHTs without the angst.</p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-msg-hindsight').modal('hide');" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade seeker-pop" id="thanks-rating-hindsight" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick = "javascript:jQuery('#thanks-rating-hindsight').modal('hide');" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">THANKS FOR RATING THIS HINDSIGHT !</h4>
+            </div>
+            <div class="modal-body ">
+                <p> Your feedback is really valuable to us as it helps us properly curate our archive and deliver amazing wisdom to help you and business owners around the world make better, faster HINDSIGHTs without the angst.</p>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-rating-hindsight').modal('hide');" >OK</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------- Start to show thanks modal after invitation has been sent -------------------- -->
+<div class="modal fade seeker-pop" id="thanks-invitation-hindsight-accepted" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick = "javascript:jQuery('#thanks-invitation-hindsight-accepted').modal('hide');"  aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">GREAT!! AN INVITATION HAS BEEN ALREADY SENT TO</h4>
+                <span class= "modal-sage-name"></span>
+            </div>
+            <div class="modal-body ">
+                <p>You have been already joined in network.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-invitation-hindsight-accepted').modal('hide');" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade seeker-pop" id="thanks-invitation-hindsight-pending" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick = "javascript:jQuery('#thanks-invitation-hindsight-pending').modal('hide');"  aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">GREAT!! AN INVITATION HAS BEEN ALREADY SENT TO</h4>
+                <span class= "modal-sage-name"></span>
+            </div>
+            <div class="modal-body ">
+                <p>Your invitation to join your network has been already sent and it is pending now.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-invitation-hindsight-pending').modal('hide');" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade seeker-pop" id="thanks-invitation-hindsight-rejected" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick = "javascript:jQuery('#thanks-invitation-hindsight-rejected').modal('hide');"  aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">GREAT!! AN INVITATION HAS BEEN ALREADY SENT TO</h4>
+                <span class= "modal-sage-name"></span>
+            </div>
+            <div class="modal-body ">
+                <p>Your invitation has been rejected. </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-invitation-hindsight-rejected').modal('hide');" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade seeker-pop" id="thanks-invitation-hindsight" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick = "javascript:jQuery('#thanks-invitation-hindsight').modal('hide');"  aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">GREAT!! AN INVITATION TO JOIN YOUR NETWORK HAS BEEN SENT TO</h4>
+                <span class= "modal-sage-name"></span>
+            </div>
+            <div class="modal-body ">
+                <p>Once your invitation has been accepted you will be alerted to any new hindsight from this Citizen so you can keep up to date.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-invitation-hindsight').modal('hide');" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------- End to show thanks modal after invitation has been sent -------------------- -->
+
+<div class="modal fade seeker-pop" id="thanks-message-hindsight" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick = "javascript:jQuery('#thanks-message-hindsight').modal('hide');" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">MESSAGE SENT!</h4>
+            </div>
+            <div class="modal-body ">
+                <p>Your message has been sent to <span class= "modal-sage-name"></span>. Thank you for contacting the Decision|Bank!!</p>
+            </div>
+            <div class="modal-footer">            
+                <button type="button" class="btn btn-black" onclick = "javascript:jQuery('#thanks-message-hindsight').modal('hide');" >OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade seeker-pop" id="hindsight-library-msg" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" aria-hidden="true" onclick="javascript:jQuery('#hindsight-library-msg').modal('hide');">×</button>
+                <h4 class="modal-title" id="myModalLabel">My|Library</h4>
+            </div>
+            <div class="modal-body hindsight-fav">
+              
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" class="btn btn-black" onclick="javascript:jQuery('#hindsight-library-msg').modal('hide');">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+jQuery(document).ready(function(){
+    
+/*------------- Start to get seeker modal data ------------------*/
+    jQuery('body').on('click','.get-data-wisdom-modal',function(obj_id,obj_type){        	
+       
+	   alert('aaa');
+	   // $('.page-loading').show();
+        var $this = jQuery(this);
+        var obj_id = $this.data("id");
+        var obj_type = $this.data('type');
+        $("#wisdomarticle-popup").data("id", obj_id);
+        $(".set-data-wisdom").data("id", obj_id);
+       // alert(obj_id)
+
+        $('body').on('click','.remove-scroll tr td',function(){  
+            $('body').css("overflow","hidden") 
+        });
+
+         $('body').on('click','.update-view-status',function()
+              {   $('body').css("overflow","hidden") });
+
+
+
+        if($this.hasClass("set-data-wisdom") ){
+           $('.page-loading-ajax').height($(window).height());           
+            $('.page-loading-ajax').show();
+        }else{
+          $('.page-loading').height($(window).height());   
+           $('.page-loading').show();   
+        }
+         jQuery("#wisdomarticle-popup").find('.advice-data').addClass('active'); 
+         jQuery("#wisdomarticle-popup").find('.endrose-data').removeClass('active'); 
+         jQuery("#wisdomarticle-popup").find('.profile-data').removeClass('active');   
+
+		 
+        jQuery.ajax({
+            type :'POST',
+            url:'<?php echo $this->webroot?>wisdoms/getWisdomModal/',               
+            data:{'obj_id':obj_id, 'obj_type':obj_type },
+            success:function(data){    
+
+
+                $("#wisdomarticle-popup").find('#wisdom-advice').addClass('active in'); 
+             
+                $("#wisdomarticle-popup").find('#wisdom-endorsements').removeClass('active in');                  
+
+                if($this.hasClass("set-data-wisdom")){                   
+                    $('.page-loading-ajax').hide();
+                }else{   
+                    $('.page-loading').hide();   
+                }
+                $("#wisdomarticle-popup").modal('show');
+                $("#wisdomarticle-popup").find('.tab-content #wisdom-advice').html('');
+                $("#wisdomarticle-popup").find('.tab-content #wisdom-advice').html(data);
+
+                   //alert(  jQuery("#wisdom-advice").find('.advice_user_id').data('context'));
+                if( jQuery("#wisdom-advice").find('.advice_user_id').data('context') ==null )
+                  {
+                    //alert("Hgf");
+                     jQuery("#wisdomarticle-popup").find(".get-seeker-profile").data("id",jQuery("#wisdomarticle-popup").find(".get-seeker-profile").data("id"));
+                    
+                  }
+
+                  else
+                  { //alert("***");
+                     jQuery("#wisdomarticle-popup").find(".get-seeker-profile").data("id", jQuery("#seeker-advice").find('.advice_user_id').data('context')); 
+                  }
+    
+                $(":file.custom-filefield").filestyle({buttonBefore: true});
+
+                //  var sage_name = jQuery('.seeker-name-for').val().trim();
+                    
+                        jQuery(".modal-sage-name").text(sage_name);
+                        jQuery(".inviter_user_id").val( jQuery(".advice_user_id").data("userid"));
+
+                // var script = '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53c383bb6244e3e5';
+                // if (window.addthis) {
+                //     window.addthis = null;
+                //     window._adr = null;
+                //     window._atc = null;
+                //     window._atd = null;
+                //     window._ate = null;
+                //     window._atr = null;
+                //     window._atw = null;
+                // }
+                // $.getScript(script);
+            }
+                
+       });      
+   });
+/*------------- End to get seeker modal -------------------*/
+    
+/*------------- Start to get seeker profile data ---------*/
+    jQuery('body').on('click','.get-seeker-profile',function(){
+        
+        var $this = jQuery(this);            
+        var obj_type = $this.data('type');
+        
+      //  var hindsight_id = $('.obj_id').val(); 
+      var context_role_user_id =  $this.data("id"); 
+
+        $('body').on('click','.remove-scroll tr td',function()
+              {   $('body').css("overflow","hidden") });
+    
+          $('body').on('click','.update-view-status',function()
+              {   $('body').css("overflow","hidden") });
+    
+     
+        //alert(context_role_user_id);
+        if($this.hasClass("getprofile") )
+            {
+                 jQuery("#wisdomarticle-popup").find('.advice-data').removeClass('active'); 
+                 jQuery("#wisdomarticle-popup").find('.endrose-data').removeClass('active'); 
+                 jQuery("#wisdomarticle-popup").find('.profile-data').addClass('active');   
+
+                  $('.page-loading').height($(window).height());   
+                 $('.page-loading').show();  
+            }
+            else
+            {
+                            $('.page-loading-ajax').height($(window).height());           
+                          $('.page-loading-ajax').show();
+            }
+        $.ajax({
+            type:'POST',
+            url:'<?php echo $this->webroot?>wisdoms/getSeekerProfileModal/',
+            data:{ 'user_id':context_role_user_id},
+            success:function(data){  
+                
+                 if($this.hasClass("getprofile") )
+                {
+                   
+                        jQuery("#wisdomarticle-popup").modal('show');
+                        $("#wisdomarticle-popup").find('#seeker-advice').removeClass('active in'); 
+                        $("#wisdomarticle-popup").find('#seeker-profile').addClass('active in'); 
+                        $("#wisdomarticle-popup").find('#seeker-endorsements').removeClass('active in');    
+                      $('.page-loading').height($(window).height());   
+                               $('.page-loading').hide();   
+                             
+                }
+                else{
+                    $('.page-loading-ajax').height($(window).height());           
+                              $('.page-loading-ajax').hide();
+                } 
+                 $("#wisdomarticle-popup").find('.tab-content #seeker-profile').html(data);  
+                 
+                   // alert(jQuery(".seeker-profile-data").find('.remove-other-tab').data('advice'));
+                    if( jQuery(".seeker-profile-data").find('.remove-other-tab').data('present') =='exist')
+                    {
+                        //alert(jQuery(".seeker-profile-data").find('.remove-other-tab').data('advice'));
+                        jQuery("#wisdomarticle-popup").find('.get-data-seeker-modal').data('id',jQuery(".seeker-profile-data").find('.remove-other-tab').data('advice'));
+                       
+                    }
+                    else
+                    {
+                      jQuery("#wisdomarticle-popup").find('.get-data-seeker-modal').data('id','');
+                    }
+                                              
+                    $("#thanks-invitation-hindsight").find('.modal-sage-name').text( jQuery("#wisdomarticle-popup").find('.sage-name').text());
+ $("#thanks-invitation-hindsight-accepted").find('.modal-sage-name').text( jQuery("#wisdomarticle-popup").find('.sage-name').text());
+ $("#thanks-invitation-hindsight-rejected").find('.modal-sage-name').text( jQuery("#wisdomarticle-popup").find('.sage-name').text());
+$("#thanks-invitation-hindsight-pending").find('.modal-sage-name').text( jQuery("#wisdomarticle-popup").find('.sage-name').text());
+                  jQuery("#wisdomarticle-popup").find('.get-seeker-profile').data('id',context_role_user_id);                                    
+                $('.collapse').collapse({
+                    toggle: false
+                });
+            }
+        });
+    });
+
+
+
+/*------------- End to get seeker profile data -----------*/
+
+/*------------- Start to add comment on hindsight -------------*/
+    $('#wisdomarticle-popup').on('submit','#AddHindsightComment',function(event){ 
+        event.preventDefault();
+
+         $('.page-loading-ajax').show();
+        var datas=$("#AddHindsightComment").serialize();
+        jQuery.ajax({
+            type: 'POST',
+            url:'<?php echo $this->webroot?>decisionBanks/addCommentData/',
+            data: datas,
+            success: function(resp) {
+                 $('.page-loading-ajax').hide();
+                 $('.comment-show-panel').show();
+                $('.comment-data-container').find('.panel-body').html(resp);
+                $(".show-detail.comment").css('display','none') ;  
+                $('.bottom-icon a').children('img').removeClass('img-border');
+                $('#thanks-msg-hindsight').modal('show');
+                $("#AddHindsightComment").get(0).reset();    
+                if($('#wisdomarticle-popup.modal').hasClass('in')){ 
+                    $('body').css({overflow:'hidden'});
+                }
+                else{
+    
+                }
+            }
+       });
+   });
+
+/*------------- End to add comment on hindsight --------------*/
+
+/*------------ Start to add rating on hindsight --------------*/
+    $('#wisdomarticle-popup').on('submit','#AddHindsightRating',function(event){ 
+        event.preventDefault();
+         $('.page-loading-ajax').show();
+        var datas=$(this).serialize();
+        jQuery.ajax({
+            type: 'POST',
+            url:'<?php echo $this->webroot?>decisionBanks/addRating/',
+            data: datas,
+            success: function(resp) {
+                 $('.page-loading-ajax').hide();
+              
+                var temp =  resp.split("~");
+                $("#wisdomarticle-popup").find('.average-rating').text('Average Rating: '+temp[0]+'/10 ');
+                $("#wisdomarticle-popup").find('.total-rating').text('Rating: '+temp[1]+'/10 ');
+                if(temp[2]){
+                      $('.comment-show-panel').show();
+                    $('.comment-data-container').find('.panel-body').html(temp[2]);
+                }
+                $(".show-detail.rate").css('display','none') ;  
+                $('.bottom-icon a').children('img').removeClass('img-border');
+
+                $('#thanks-rating-hindsight').modal('show');
+                $("#AddHindsightRating").get(0).reset();
+    
+                if($('#wisdomarticle-popup.modal').hasClass('in')) { 
+                    $('body').css({overflow:'hidden'});
+                }
+                else{
+    
+                }
+                  
+            }
+        });
+    });
+/*------------ End to add rating on hindsight ----------------*/
+
+
+
+/*------------ Start to invite hindsight's user --------------*/
+  // $('#wisdomarticle-popup').on('submit','#sendInvitationHindsight',function(event){ 
+         $('body').on('submit','#sendInvitationHindsight',function(event){ 
+        event.preventDefault();
+         $this  = $(this);
+                if($this.hasClass("network-add") )
+                {   
+                       $('.page-loading').show();   
+                     
+                }
+                else
+                {
+                      $('.page-loading-ajax').show();
+                }
+        var datas=$(this).serialize();
+        jQuery.ajax({
+            type: 'POST',
+            url:'<?php echo $this->webroot?>pages/addInvitation',
+            data: datas,
+            success: function(resp) {
+                 if($this.hasClass("network-add") )
+                  {   
+                         $('.page-loading').hide();   
+                       $("#add-to-network").modal('hide');
+
+                              $("#thanks-invitation-hindsight").find('.modal-sage-name').text( jQuery("#add-to-network").find('.modal-user-name').text());
+                 $("#thanks-invitation-hindsight-accepted").find('.modal-sage-name').text( jQuery("#add-to-network").find('.modal-user-name').text());
+                 $("#thanks-invitation-hindsight-rejected").find('.modal-sage-name').text( jQuery("#add-to-network").find('.modal-user-name').text());
+                $("#thanks-invitation-hindsight-pending").find('.modal-sage-name').text( jQuery("#add-to-network").find('.modal-user-name').text());
+                  }
+                  else
+                  {
+                        $('.page-loading-ajax').hide();
+                  }
+                if (resp.result == 'success') {
+                    $(".show-detail.invitation").css('display','none') ;  
+                    $('.bottom-icon a').children('img').removeClass('img-border');   
+                    $("#thanks-invitation-hindsight").modal('show');
+                    $("#sendInvitationHindsight").get(0).reset();
+                }
+                else if(resp.result == 'accepted'){
+                    $(".show-detail.invitation").css('display','none') ;  
+                    $('.bottom-icon a').children('img').removeClass('img-border');                      
+                    $("#thanks-invitation-hindsight-accepted").modal('show');
+                    $("#sendInvitationHindsight").get(0).reset();
+                }
+                else if(resp.result == 'rejected'){
+                    $(".show-detail.invitation").css('display','none') ;  
+                    $('.bottom-icon a').children('img').removeClass('img-border');                      
+                    $("#thanks-invitation-hindsight-rejected").modal('show');
+                    $("#sendInvitationHindsight").get(0).reset();
+                }
+                else if(resp.result == 'pending'){
+                    $(".show-detail.invitation").css('display','none') ;  
+                    $('.bottom-icon a').children('img').removeClass('img-border');                      
+                    $("#thanks-invitation-hindsight-pending").modal('show');
+                    $("#sendInvitationHindsight").get(0).reset();
+                }
+                else{
+                    return false;
+                }
+                if($('#wisdomarticle-popup.modal').hasClass('in')) { 
+                    $('body').css({overflow:'hidden'});
+                }
+                else{
+    
+                }
+            }
+        });
+    });
+/*------------ End to invite hindsight's user ----------------*/
+
+/*------------ Start to send a mail to hindsight's user -------*/
+    $('#wisdomarticle-popup').on('submit','#sendMessageHindsight',function(event){      
+        event.preventDefault();
+        $('.page-loading-ajax').show();
+        var datas=$(this).serialize();
+        jQuery.ajax({
+            type: 'POST',
+            url:'<?php echo $this->webroot?>pages/SendMessage',
+            data: datas,
+            success: function(resp) {
+                $('.page-loading-ajax').hide();
+                if (resp.result == 'success') {
+                    $(".show-detail.mail").css('display','none') ;  
+                    $('.bottom-icon a').children('img').removeClass('img-border');
+                    $("#thanks-message-hindsight").modal('show');
+                    $("#sendMessageHindsight").get(0).reset();
+                }
+                else{
+                    return false;
+                }
+    
+                if($('#wisdomarticle-popup.modal').hasClass('in')){ 
+                    $('body').css({overflow:'hidden'});
+                }
+                else{
+    
+                }
+            }
+        });
+    });
+/*----------- End to send a mail to hindsight's user ----------*/
+
+
+/*-------------   Start to handle attachement   ------------- */
+    $('#wisdomarticle-popup').on('submit', '#attachment-handler', function(e){
+        e.preventDefault();     
+         $('.page-loading-ajax').show();        
+        var formData = new FormData($(this)[0]);
+         if($('#attachment-handler .form-control').val()=='')
+         {
+             $('.page-loading-ajax').hide();
+          bootbox.alert('Please choose file for upload.');
+
+
+         if($('#wisdomarticle-popup.modal').hasClass('in'))
+           { 
+               $('body').css({overflow:'hidden'});
+           }
+
+          return;
+         }  
+        
+        $.ajax({
+            url:'<?php echo $this->webroot?>attachments/upload',
+            data:formData,
+            type: 'POST',         
+            contentType:false,
+            processData: false,
+            success: function (resp){
+                  $('.page-loading-ajax').hide();
+                resp = JSON.parse(resp);               
+                
+                if(resp[0].error != undefined){
+                    bootbox.alert(resp[0].error);
+                     if($('#wisdomarticle-popup.modal').hasClass('in'))
+                       { 
+                           $('body').css({overflow:'hidden'});
+                       }
+                    return;
+                }
+                $('.attachment-wrap').show();
+                for(i =0; i < resp.length; i++){
+                    
+                    var fileType = resp[i].type;
+                    var fileName = resp[i].source;
+                    var filePath = resp[i].path;
+                    var attachId = resp[i].attachmentId;
+                    if(fileType == 'image'){
+                        var orgfilePath = filePath.replace("thumb_", "");
+                        var imgPath = '<img src="<?php echo $this->Html->url('/', true);?>'+filePath+'">';
+                        var str = '<div class="img-section row-wrap" data-id="'+attachId+'"><div class="close-img"></div><a target="_blank" href="<?php echo $this->Html->url('/', true);?>'+orgfilePath+'">'+imgPath+'</a></div>';
+                        $(str).prependTo('.image-wrap');
+                    }
+                    else if(fileType == 'doc' || fileType == 'docx'){
+                       var str = '<div class="doc-section row-wrap" data-id="'+attachId+'"><div class="close-img"></div><a target="_blank" href="<?php echo $this->Html->url('/', true);?>'+filePath+'"><i><?php echo $this->Html->image('doc.png');?></i>'+fileName+'</a></div>'; 
+                       $(str).prependTo('.doc-wrap');
+                    }
+                    else if(fileType == 'pdf' ){
+                        var str = '<div class="doc-section row-wrap" data-id="'+attachId+'"><div class="close-img"></div><a target="_blank" href="<?php echo $this->Html->url('/', true);?>'+filePath+'"><i><?php echo $this->Html->image('pdf.png');?></i>'+fileName+'</a></div>'; 
+                       $(str).prependTo('.doc-wrap');
+                    }
+                    else{
+                        var str = '<div class="doc-section row-wrap" data-id="'+attachId+'"><div class="close-img"></div><a target="_blank" href="<?php echo $this->Html->url('/', true);?>'+filePath+'"><i><?php echo $this->Html->image('blank_page_icon.png');?></i>'+fileName+'</a></div>';
+                        $(str).prependTo('.doc-wrap');
+                    }
+                   
+                }
+                 $('#attachment-handler .form-control').val('');
+            }
+        });   
+      
+    });
+/*-------------   End to handle attachment   ------------- */
+
+/*------------- Start to delete attachment ---------------*/
+    $('#wisdomarticle-popup').on('click', '.close-img', function(){
+        var $this = $(this),
+        wrapp  = $this.closest('.row-wrap'),
+        attachId = wrapp.data('id'),
+        datas = {'attachId':attachId};
+        //console.log(attachId);
+        bootbox.dialog({
+            message: "Are you sure you want to delete this attachment ?",            
+            buttons: {
+                success: {
+                    label: "Yes",
+                    className: "btn-black",
+                    callback: function() {
+                       $.ajax({
+                          type: 'POST',
+                          url : '<?php echo $this->webroot?>attachments/delete',
+                          data: datas,
+                          success:function(resp){
+                              if(resp == 1){
+                                  wrapp.remove();
+                              }
+                              
+                          }
+                       });
+                    }
+                },
+                danger: {
+                    label: "No",
+                    className: "btn-black"                   
+                }
+               
+            }
+        });
+
+        
+           if($('#wisdomarticle-popup.modal').hasClass('in'))
+           { 
+               $('body').css({overflow:'hidden'});
+           } 
+    });
+/*------------- End to delete attachement ----------------*/
+
+/*------------Start to Edit Hindsight  -------------------*/
+$('body').on('click', '.edit-wisdom', function(e){
+       $('body').on('click','.remove-scroll tr td a',function()
+              {   $('body').css("overflow","hidden") });
+e.stopPropagation();
+ var $this = $(this);
+        if($this.hasClass("data-loading") ){
+           $('.page-loading-ajax').height($(window).height());           
+            $('.page-loading-ajax').show();
+        }else{
+          $('.page-loading').height($(window).height());   
+           $('.page-loading').show();   
+        }
+   
+     
+   // var obj_id = $('.hindsight-id').val(),
+   obj_id = $this.data("id"),
+    obj_type = 'DecisionBank',
+    opt_type = 'Edit',
+   
+    datas = {'obj_id':obj_id, 'obj_type':obj_type, 'opt_type':opt_type};
+
+
+   
+
+       $('body').on('click','.update-view-status',function()
+              {   $('body').css("overflow","hidden") });
+
+   jQuery("#wisdomarticle-popup").find('.advice-data').addClass('active'); 
+         jQuery("#wisdomarticle-popup").find('.endrose-data').removeClass('active'); 
+         jQuery("#wisdomarticle-popup").find('.profile-data').removeClass('active');   
+ 
+
+    //alert(obj_id);
+    $.ajax({
+       type:'POST',
+       url:'<?php echo $this->webroot?>wisdoms/getWisdomModal/',
+       data:datas,
+       success:function(data){  
+
+               $("#wisdomarticle-popup").find('#seeker-advice').addClass('active in'); 
+                $("#wisdomarticle-popup").find('#seeker-profile').removeClass('active in'); 
+                $("#wisdomarticle-popup").find('#seeker-endorsements').removeClass('active in');                                                                          
+           jQuery("#wisdomarticle-popup").modal('show');
+           
+           setTimeout(function(){
+               
+                if($this.hasClass("data-loading") ){
+                   $('.page-loading-ajax').height($(window).height());           
+                    $('.page-loading-ajax').hide();
+                }else{
+                  $('.page-loading').height($(window).height());   
+                   $('.page-loading').hide();   
+                }       
+                     
+               jQuery("#wisdomarticle-popup").find('.tab-content #seeker-advice').html(data);  
+
+
+             
+                if( (jQuery("#seeker-advice").find('.advice_user_id').data('context')) ==null )
+                  {
+                   
+                     jQuery("#wisdomarticle-popup").find(".get-seeker-profile").data("id",jQuery("#wisdomarticle-popup").find(".get-seeker-profile").data("id"));
+                    
+                  }
+
+                  else
+                  { 
+                     jQuery("#wisdomarticle-popup").find(".get-seeker-profile").data("id", jQuery("#seeker-advice").find('.advice_user_id').data('context')); 
+                  }
+    
+                   $(":file.custom-filefield").filestyle({buttonBefore: true});
+
+                
+                   
+               },500);                      
+
+               // var sage_name = jQuery('.seeker-name-for').val().trim();
+                    
+               //  jQuery(".modal-sage-name").text(sage_name);
+                jQuery(".inviter_user_id").val( jQuery(".advice_user_id").data("userid"));
+
+           }
+    });
+    
+});
+
+$('#wisdomarticle-popup').on('click', '.publish-advice', function(){
+    var obj_id = $('.obj-id').val(),
+    $this = $(this),
+    btn_wrap = $this.closest('.bottom-icon');
+      $('.page-loading-ajax').show();
+
+    var executive_summary = $('.executive-summary').val();
+    var challenge_addressing = $('.challenge-addressing').val();    
+    var decision_type_id = $('.decision-types').val(),
+    category_id  = $('.category-id').val(),
+    advice_title = $('.sage-title-inp').val(),
+
+    hindsight_description = $('.hindsight_description').val(),
+    published_date = $('#datepicker_advice').val();
+    // To store hindsight details
+    hindsight = new Array();
+    var i = 0;
+    $('#wisdomarticle-popup').find('.hindsightDetail').each(function(){        
+        detailId = $(this).data('id');
+        hindsight[i] = detailId+'~'+$(this).val();
+        i++;
+    });
+        
+    if(advice_title.trim() == ''){
+        var wrap = $('.sage-title-inp').closest('.txt-wrapper');
+        wrap.find('.error-message').html('Please enter title.');
+    }
+    else{
+        var wrap = $('.sage-title-inp').closest('.txt-wrapper');
+        wrap.find('.error-message').html('');
+    }
+
+    if(decision_type_id == ''){
+        var wrap = $('.decision-types').closest('.txt-wrapper');
+        wrap.find('.error-message').html('Please select category.');
+    }
+    else{
+        var wrap = $('.decision-types').closest('.txt-wrapper');
+        wrap.find('.error-message').html('');
+    }
+
+    if(category_id == ''){
+        var wrap = $('.category-id').closest('.txt-wrapper');
+        wrap.find('.error-message').html('Please select sub-category.');
+    }
+    else{
+        var wrap = $('.category-id').closest('.txt-wrapper');
+        wrap.find('.error-message').html('');
+    }
+    if(published_date == ''){
+        var wrap = $('#datepicker_advice').closest('.txt-wrapper');
+        wrap.find('.error-message').html('Please select date.');
+    }
+    else{
+        var wrap = $('#datepicker_advice').closest('.txt-wrapper');
+        wrap.find('.error-message').html('');
+    }
+   
+
+    if(advice_title.trim() == '' || decision_type_id == '' || category_id == '' || published_date == ''){
+        return false;
+    }
+
+    var datas = {'obj_id':obj_id, 'executive_summary':executive_summary, 'challenge_addressing':challenge_addressing, 
+        'hindsight':hindsight, 'advice_title':advice_title, 'decision_type_id':decision_type_id, 'category_id':category_id,
+        'published_date':published_date,'hindsight_description':hindsight_description};
+
+    $.ajax({
+       type:'POST',
+       url:'<?php echo $this->webroot?>DecisionBanks/updateHindsight/',
+       data:datas,
+       success:function(data){
+          $('.page-loading-ajax').hide();
+           if(data == 1){
+               btn_wrap.find('.get-data-seeker-modal').trigger('click');
+           }
+           else{
+               bootbox.alert('Sorry! record did not update.');
+           }
+       }
+    });
+    
+});
+
+/*------------ End to Edit Hindsight  -------------------*/
+
+/*------------ Start to delete Hindsight -----------------*/
+    $('#wisdomarticle-popup').on('click', '.delete-seeker-hindsight', function(){
+        var obj_id = $('.hindsight-id').val();
+        var datas = {'obj_id':obj_id};
+        //console.log(obj_id);
+
+        if($('#wisdomarticle-popup.modal').hasClass('in')){ 
+            $('body').css({overflow:'hidden'});
+        }
+
+        bootbox.dialog({
+            message: "Are you sure you want to delete this Hindsight ?",            
+            buttons: {
+                success: {
+                    label: "Yes",
+                    className: "btn-black",
+                    callback: function() {
+                       $.ajax({
+                          type: 'POST',
+                          url : '<?php echo $this->webroot?>DecisionBanks/delete',
+                          data: datas,
+                          success:function(resp){
+                              if(resp == 1){
+                                   bootbox.dialog({
+                                        message: "Hindsight deleted successfully.",            
+                                        buttons: {
+                                            success: {
+                                                label: "Ok",
+                                                className: "btn-black",
+                                                callback: function() {
+                                                    location.reload();
+                                                }
+                                            }
+                                        }
+                                                                           
+                                });    
+                              }
+                              else{
+                                  bootbox.alert('Sorry! record did not delete.');
+                              }
+                              
+                          }
+                       });
+                    }
+                },
+                danger: {
+                    label: "No",
+                    className: "btn-black"                   
+                }
+               
+            }
+        });
+    });
+/*------------ End to delete Advice -----------------*/
+
+/*------------Start to add More Hindsight Editor -------------*/
+
+    $('#wisdomarticle-popup').on('click', '.add-more-hindsight', function(){
+        var btnWrapper = $(this).closest('.form-group');
+        var editorClone = $('#wisdomarticle-popup').find('.snippet').clone().removeClass('snippet');
+        editorClone.find('textarea').addClass('hindsightDetail');
+        editorClone.insertBefore(btnWrapper).show();
+        
+        $( 'textarea.hindsightDetail' ).ckeditor();
+    });
+
+/*------------End to add More Hindsight Editor -------------*/
+
+/*-----------Start to delete hindsight details ------------*/
+    $('#wisdomarticle-popup').on('click', '.delete-detail', function(){
+        var wrap = $(this).closest('.textarea-editor'),
+        objId = wrap.data('id'),
+        datas = {'objId':objId};
+        if(objId > 0){
+            bootbox.dialog({
+            message: "Are you sure you want to delete ?",            
+            buttons: {
+                success: {
+                    label: "Yes",
+                    className: "btn-black",
+                    callback: function() {
+                       $.ajax({
+                          type: 'POST',
+                          url : '<?php echo $this->webroot?>DecisionBanks/deleteDetail',
+                          data: datas,
+                          success:function(resp){
+                              if(resp == 1){
+                                  wrap.remove();                                      
+                              }
+                              else{
+                                  bootbox.alert('Sorry! record did not delete.');
+                              }
+                              
+                          }
+                       });
+                    }
+                },
+                danger: {
+                    label: "No",
+                    className: "btn-black"                   
+                }
+               
+            }
+        });
+        }
+        else{
+            wrap.remove();
+        }
+    });    
+/*-----------End to delete hindsight details ------------*/
+});
+
+
+
+jQuery('body').on('click','.get-wisdom-endorsement',function(){
+
+  alert("fdsfs")
+var $this = jQuery(this); 
+
+               // $('.page-loading-ajax').height($(window).height());           
+               // $('.page-loading-ajax').show();
+
+                jQuery("#wisdomarticle-popup").find('.advice-data').removeClass('active'); 
+                jQuery("#wisdomarticle-popup").find('.endrose-data').addClass('active'); 
+            $("#wisdomarticle-popup").find('#wisdom-advice').removeClass('active in'); 
+             
+                $("#wisdomarticle-popup").find('#wisdom-endorsements').addClass('active in');  
+        
+
+});
+</script>
+
